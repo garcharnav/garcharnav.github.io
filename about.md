@@ -11,6 +11,7 @@ title: About
 ## Contact me
 
 Email: kaimingyi@163.com
+
 [Linkedin](https://www.linkedin.com/in/kaimingyi)
 
 
