@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            gameKnife
-tagline:          'A Jekyll theme'
-description:      'A Graphic artisan.'
+tagline:          'a graphic artisan'
+description:      'A Graphic Artisan.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
