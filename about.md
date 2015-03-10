@@ -3,28 +3,15 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+我是gameKnife, 已经敲了6年的代码，可能还要继续再敲几十年。
+其实我曾经是一名文艺青年，我妈想让我学会弹钢琴，我自己想成为一个画家。不料最终走上了IT青年的路子，不过我依旧怀揣美术梦想，奋战在图形开发的一线。
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+[gkENGINE](https://github.com/gameknife/gkEngine)是我从毕业开始维护和开发的一个游戏引擎，于2015年初开源。目前希望能够聚集一帮志同道合的朋友，共同进化gkENGINE。
 
-There are currently two themes built on Poole:
+## Contact me
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Email: kaimingyi@163.com
+[Linkedin](https://www.linkedin.com/in/kaimingyi)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
