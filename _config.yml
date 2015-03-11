@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            gameKnife
 tagline:          'a graphic artisan'
 description:      'A Graphic Artisan.'
-url:              http://hyde.getpoole.com
+url:              http://gameknife.github.io
 baseurl:          /
 
 author:
