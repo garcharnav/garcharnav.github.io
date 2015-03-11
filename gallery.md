@@ -4,7 +4,7 @@ title: Gallery
 ---
 
 计算机图形程序
-===
+---
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg "gkEngine室外截图1")
 >gkEngine室外截图1
 
@@ -27,7 +27,7 @@ title: Gallery
 >SoftRenderer软件渲染器截图
 
 绘画
-===
+---
 
 摄影
-===
+---
