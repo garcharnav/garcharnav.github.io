@@ -2,8 +2,11 @@
   <div class="container sidebar-sticky">
   
     <div class="sidebar-about">
-      <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/jack.png" width="180" height="180" alt="Kaiming Yi">
+      <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/jack.png" width="180" height="180" alt="Kaiming Yi" style="margin: auto auto 2rem auto;">
     </div>
+	    <footer class="footer" style="margin: 1rem auto 1rem auto;">
+          {% include svg-icons.html %}
+        </footer>
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
@@ -34,13 +37,7 @@
       <a class="sidebar-nav-item"><br></a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
