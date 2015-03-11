@@ -32,10 +32,10 @@ footer-links:
   facebook:
   flickr:
   github: gameknife
-  instagram:
+  instagram: gameknife
   linkedin: kaimingyi
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: do# just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
