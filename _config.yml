@@ -16,6 +16,8 @@ baseurl:          /
 #category
 cate:
   tech:			  tech
+  life:			  life
+  art:			  art
 
 author:
   name:           'Mark Otto'
