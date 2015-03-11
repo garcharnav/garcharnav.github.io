@@ -7,7 +7,7 @@ permalink: tech.html
 <div class="posts">
   {% for post in paginator.posts %}
   
-  {% if post.category == site.cate.tech %}
+  {% if {{ post.title }} == site.cate.tech %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
