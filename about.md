@@ -9,13 +9,13 @@ title: About
 # .
 我主持的开源项目：
 
-* gkENGINE 
-* SoftRenderer
+* gkENGINE [github](https://github.com/gameknife/gkEngine) [codeplex](http://gkengine.codeplex.com)
+* SoftRenderer [codeplex](http://sr.codeplex.com)
 
 我参与的项目
 
-* 蛮荒搜神记
-* OPENVRP
+* 蛮荒搜神记 [website](http://games.sina.com.cn/ol/n/2014-12-23/1040843278.shtml)
+* OPENVRP [article](http://www.vrp3d.com/article/openVRP/shengkuang.html)
 
 
 ## Contact me
