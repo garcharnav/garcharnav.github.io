@@ -19,7 +19,8 @@ windows平台快速部署分为，部署，编译，运行，打包四个步骤�
 > **depends.7z** | [http://pan.baidu.com/s/1i38C5ud](http://pan.baidu.com/s/1i38C5ud)
 > 
 > **media.7z** | [http://pan.baidu.com/s/1qWK90Jy](http://pan.baidu.com/s/1qWK90Jy)
-分别放置于code/thirdparty下和exec/media下
+> 
+> 分别放置于code/thirdparty下和exec/media下
 
 1. 运行hand\_make\_env.bat，部署第三方依赖环境
 
