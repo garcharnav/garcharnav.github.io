@@ -13,7 +13,7 @@ windows平台快速部署分为，部署，编译，运行，打包四个步骤�
 1. 从github / codeplex pull最新版本
 > **github GIT** | [https://github.com/gameknife/gkEngine.git](https://github.com/gameknife/gkEngine.git)
 
-1. 运行 init_engine_res.bat ，建立引擎目录环境
+1. 运行 init\_engine\_res.bat ，建立引擎目录环境
 
 1. 从资源服务器获取depends.7z第三方依赖库和media.7z资源库
 > **depends.7z** | [http://pan.baidu.com/s/1i38C5ud](http://pan.baidu.com/s/1i38C5ud)
@@ -21,9 +21,9 @@ windows平台快速部署分为，部署，编译，运行，打包四个步骤�
 > **media.7z** | [http://pan.baidu.com/s/1qWK90Jy](http://pan.baidu.com/s/1qWK90Jy)
 分别放置于code/thirdparty下和exec/media下
 
-1. 运行hand_make_env.bat，部署第三方依赖环境
+1. 运行hand\_make\_env.bat，部署第三方依赖环境
 
-1. 运行hand_make_resource.bat，部署和编译资源
+1. 运行hand\_make\_resource.bat，部署和编译资源
 
 ### 编译
 
@@ -53,6 +53,6 @@ windows平台快速部署分为，部署，编译，运行，打包四个步骤�
 
 *打包为二次运行包，隐藏开发资源，剔除不必要文件，以供发布运行*
 
-1. 测试完成后，使用exec/tools/version_task/build_version_pc.bat来打包pc版本的运行包
+1. 测试完成后，使用exec/tools/version\_task/build\_version_pc.bat来打包pc版本的运行包
 
 2. 运行包生成完成后，会保存在exec/builds目录下
