@@ -17,6 +17,7 @@ windows平台快速部署分为，部署，编译，运行，打包四个步骤�
 
 1. 从资源服务器获取depends.7z第三方依赖库和media.7z资源库
 > **depends.7z** | [http://pan.baidu.com/s/1i38C5ud](http://pan.baidu.com/s/1i38C5ud)
+> 
 > **media.7z** | [http://pan.baidu.com/s/1qWK90Jy](http://pan.baidu.com/s/1qWK90Jy)
 分别放置于code/thirdparty下和exec/media下
 
