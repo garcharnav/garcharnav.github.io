@@ -6,20 +6,19 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    
-	<li>
     <span class="post-date">{{ post.date | date_to_string }}</span>
     <a class="post-title" href="{{ post.url }}">
         {{ post.title }}
     </a>
-	</li>
 <!--
     {{ post.content }}
--->
 	{{ post.abstract }}
+	 <hr>
+-->
+	
 
   </div>
-  <hr>
+ 
   {% endfor %}
 </div>
 
