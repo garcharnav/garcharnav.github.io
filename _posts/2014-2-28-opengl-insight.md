@@ -4,12 +4,17 @@ title: Tile-Based架构下的性能调校
 category: tech
 ---
 
+-  转自我的cnblogs
+
 ## Performance Tunning for Tile-Based Architecture
 ## Tile-Based架构下的性能调校
 
 by Bruce Merry
 
 GameKnife译
+
+<br>
+<br>
 
 ### 译序                       
 
