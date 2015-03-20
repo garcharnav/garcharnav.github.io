@@ -40,6 +40,20 @@ title: Gallery
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/oilpaint2.jpg "油画2")
 >油画2
 
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/pencilpaint1.jpg "铅笔画1")
+>铅笔画1
+
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/pencilpaint2.jpg "铅笔画2")
+>铅笔画2
+
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/markpaint1.jpg "马克笔绘画")
+>马克笔绘画
+
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/digipaint1.jpg "数位板绘画1")
+>数位板绘画1
+
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/digipaint2.jpg "数位板绘画2")
+>数位板绘画2
 <br>
 
 <br>
