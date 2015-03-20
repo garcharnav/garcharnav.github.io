@@ -39,7 +39,7 @@ MISSON START
 
 接下来，便得到了精确的GPU时间数据和各阶段的详细资源：
 
-
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/10221141-ed14483323a544f89394b02b80427333.jpg)
 
 > *渲染效率：GTX560  104frame/s   9.6ms/frame*
 
@@ -61,13 +61,15 @@ SSAO的shader，汇编指令169, 11个采样指令。1280x720分辨率，每帧�
 ##### 2.ShadowMask优化
 采用相同策略，使用半尺寸渲染，将计算量降为1/4。不过这时在后面的着色阶段，会产生渲染错误。
 
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/10230714-29e84348faa6456880d594dbec32723e.jpg)
+
 如图，由于MASK采用半尺寸，因此在全尺寸的着色阶段，会由于线性采样，在阴影和受光的交界像素处采样到非阴影值（树干的边缘，后面的茅屋阴影有非阴影白边）。
 
 解决的办法是，在着色阶段，在采样点都右下方像素多采样一个阴影值，两者取最小值作为当前像素的阴影值，过滤掉这个渲染错误。这个解决方案也有必然的弊端：可能会在本身没有阴影的地方产生一定程度的阴影黑边。但是相对白边，黑边造成的瑕疵完全可以接受。
-3. POST PROCESS优化
+##### 3.POST PROCESS优化
 之前的POSTPROCESS有很多RT来回倒腾的操作（紫色的矩形块）。经过RT的合理分配和顺序调整，可以去掉一些RT STRETCH的操作，提高POST-PROCESS的效率。
 
-4. 终极优化 - 可变渲染分辨率
+##### 4.终极优化 - 可变渲染分辨率
 之前都是针对各种特性渲染的降采样，来降低像素计算压力。但是在移动平台上，提升依然不是太明显，因此，需要一个终极的解决方案。经过PHOTOSHOP里测试，使用3/4的尺寸渲染，然后“放大”到全尺寸。最终的画面质量下降不是太大。但是像素计算量能直接下降为接近1/2。带来的性能提升是十分显著的。因此在之前的texture管理器中添加了一个scale属性。对除BACKBUFFER之外的所有纹理进行降采样处理。渲染完成后，STRETCH到BACKBUFFER上。
 
  
@@ -77,20 +79,21 @@ SSAO的shader，汇编指令169, 11个采样指令。1280x720分辨率，每帧�
 
 ##### 1.为低分辨率渲染添加锐化pass
 
-
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/11123125-9b4e09866b8248b19a9369ceb3edd615.jpg)
 
 如上图所示，的确，使用3/4的渲染分辨率，少了近一半的像素，质量下降难免，如坛友所说，结果像是图片经过了质量压缩。但是这个下降是否可以再补偿回来一些呢？
 
 经过一些调研，轻微的尺寸缩放可以通过锐化来补偿。于是开始尝试之前做过的锐化算法，将图像进行微弱的高斯模糊，再利用模糊结果和原图进行线性外插，强化像素的“反差”，达到锐化目的。
 
 color = lerp( blur, curr, sharpvalue ); // sharpvalue取值大于1
+
 ##### 2.使用手动MIPMAP解决地形颗粒感过重的问题
 
 对于有坛友提出的颗粒感过重的问题，因为terrian的多层混合是直接在shader中计算的，由于纹理的重复采样是直接在shader总通过frac得出，因此打开mipmap会有采样错误（由于frac计算出的texcoord不连续），之前图省事直接关闭了mipmaping。因此这里用了一个简单的方法，解决这个问题：利用像素的线性深度，手动计算应该采样的mipmap层数（避免使用自动的ddx计算，造成地块间的不连续值），然后使用texlod来取得对应Mipmap的值。
 
 这时再观察GPA的数据。
 
-
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/11123721-3e6bbe86c8dd47329b33faf7a0e078e1.jpg)
 
 这时之前的几个瓶颈已经被压到合理的消耗范围。渲染时间大部分集中在了shadowmap生成，zpass, general pass上。这算是一个合理的渲染管线消耗分配了。
 
@@ -189,6 +192,8 @@ Intel i5 2500K & Intel HD Graphics 3000	30FPS	33.33ms
  
 
 效果对比：
+
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/11193150-6b5ac60ba21d44dc90354890826f8bb3.jpg)
 
 最下面的两张渲染结果分别是全渲染尺寸 和 shadow, ssao全尺寸的渲染结果。基本代表了优化开始时的渲染质量。
 
