@@ -27,6 +27,9 @@ title: Gallery
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/sr2.jpg "SoftRenderer软件渲染器截图")
 >SoftRenderer软件渲染器截图
 
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/stills1.jpg "CG静帧1")
+>CG静帧1 - 文明 - CGTALK Editor's choice
+
 <br>
 
 <br>
