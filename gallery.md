@@ -5,7 +5,7 @@ title: Gallery
 
 计算机图形程序
 ---
-
+<hr>
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg "gkEngine室外截图1")
 >gkEngine室外截图1
 
@@ -27,13 +27,28 @@ title: Gallery
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/sr2.jpg "SoftRenderer软件渲染器截图")
 >SoftRenderer软件渲染器截图
 
+<br>
+
+<br>
+
 绘画
 ---
+<hr>
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/oilpaint1.jpg "油画1")
 >油画1
 
 ![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/oilpaint2.jpg "油画2")
 >油画2
 
+<br>
+
+<br>
+
 摄影
 ---
+<hr>
+
+<br>
+
+<br>
+
