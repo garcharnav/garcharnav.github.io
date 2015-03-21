@@ -21,7 +21,11 @@ category: tech
 
 什么情况... 哦，查到一篇文章说，执行以下kong ac提供的bootstrap，就帮你把opkg装好，真贴心
 
-那么，root@DD-WRT:·# bootstrap...
+那么，
+
+`
+root@DD-WRT:·# bootstrap...
+`
 
 我了个大擦，kong ac的网站被403了... 路由自己翻墙不便啊...
 
@@ -39,8 +43,13 @@ category: tech
 
 果断安装上opkg，然后，各种软件都有！
 
+`
 opkg install subversion-server
+`
+
+`
 opkg install mysql/php5/...
+`
 
 这次大概花了一小时，配置成功，svn, minidlna, smb服务器 都 重新通过DDNS连到gameknife.cc上，又重新为我工作了！
 
