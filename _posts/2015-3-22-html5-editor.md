@@ -4,11 +4,11 @@ title: html5界面开发
 category: tech
 ---
 
+# ·
+
 前些天由于做私活做了做web前端开发，这两天又多关注了一下html5，发现了很多有趣，强大的项目。
 
 首先是早有耳闻的erget，
-
-
 
 虽然erget很强大，感觉工具链都铺完了。但是看起来erget对我用处不大，我毕竟不需要开发html5的程序，我只是：
 
@@ -23,7 +23,9 @@ editor
 用web前端技术实现的可能性感兴趣
 ```
 
-所以，我发现了它：
+# ·
+
+最终，我发现了它：
 
 [fireball-x](http://fireball-x.com)
 
@@ -37,4 +39,19 @@ editor
 
 目前看起来这个项目相当强悍，开发者johnny wu表示在公开测试的时候会开放源代码。
 
-期待！！！
+# ·
+
+对于用web写native app界面，其实已经有过一些成功案例，有道云笔记，有道翻译貌似就是这个架构。
+
+叫 [hex](http://hex.youdao.com/zh-cn/index.html)
+
+在github上有开源托管:
+
+> [https://github.com/netease-youdao/hex](https://github.com/netease-youdao/hex)
+
+有时间可以调研，写点通信的小demo出来。
+
+
+
+
+
