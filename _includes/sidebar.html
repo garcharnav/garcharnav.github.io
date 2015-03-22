@@ -18,7 +18,7 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Blog</a>
-	  <a class="sidebar-nav-item{% if page.url == {{site.baseurl}}/tech.html %} active{% endif %}" href="{{ site.url }}/tech.html">Tech</a>
+	  <a class="sidebar-nav-item{% if page.url == tech %} active{% endif %}" href="{{ site.url }}/tech">Tech</a>
 	  <a class="sidebar-nav-item{% if page.url == art.html %} active{% endif %}" href="{{ site.url }}/art.html">Art</a>
 	  <a class="sidebar-nav-item{% if page.url == life.html %} active{% endif %}" href="{{ site.url }}/life.html">Life</a>
       {% comment %}
