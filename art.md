@@ -1,6 +1,6 @@
 ---
 layout: page
-title: - Art
+title: ·&nbspArt
 location: cate
 ---
 
@@ -14,12 +14,6 @@ location: cate
     <a class="post-title" href="{{ post.url }}">
         {{ post.title }}
     </a>
-<!--
-    {{ post.content }}
-	{{ post.abstract }}
-	 <hr>
--->
-	
 
   </div>
   {% endif %}
