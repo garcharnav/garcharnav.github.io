@@ -24,8 +24,6 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      <li class="sidebar-nav-item">Category</li>
-
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != "category" %}
@@ -43,7 +41,7 @@
         {% if node.title != "category" %}
           {% if node.layout == "page" %}
             {% if node.location == "head" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">&nbsp&nbsp&nbsp{{ node.title }}</a>
             {% endif %}
           {% endif %}
         {% endif %}
