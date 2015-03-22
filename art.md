@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ·&nbspArt
+title: &nbsp&nbsp&nbspArt
 location: cate
 ---
 
