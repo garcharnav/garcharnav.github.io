@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ·&nbspLife
+title: Life
 location: cate
 ---
 
