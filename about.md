@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+location: head
 ---
 #  .
 我是gameKnife, 已经敲了6年的代码，可能还要继续再敲几十年。
