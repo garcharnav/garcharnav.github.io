@@ -29,7 +29,7 @@
         {% if node.title != "category" %}
           {% if node.layout == "page" %}
             {% if node.location == "cate" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">&nbsp&nbsp&nbsp{{ node.title }}</a>
             {% endif %}
           {% endif %}
         {% endif %}
@@ -41,7 +41,7 @@
         {% if node.title != "category" %}
           {% if node.layout == "page" %}
             {% if node.location == "head" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">&nbsp&nbsp&nbsp{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
             {% endif %}
           {% endif %}
         {% endif %}
