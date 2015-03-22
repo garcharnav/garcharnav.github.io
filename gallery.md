@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gallery
+location: head
 ---
 
 计算机图形程序
