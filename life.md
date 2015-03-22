@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Life
-permalink: life.html
+location: head
 ---
 
 <div class="posts">
