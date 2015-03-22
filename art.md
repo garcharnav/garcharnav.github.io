@@ -1,7 +1,7 @@
 ---
-layout: page
-title: &nbsp&nbsp&nbspArt
-location: cate
+layout: 	page
+title: 		&nbsp&nbsp&nbspArt
+location: 	cate
 ---
 
 <div class="posts">
