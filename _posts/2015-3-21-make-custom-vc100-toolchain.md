@@ -25,6 +25,7 @@ vs编译是经由msbuild来做的，那么理论上我们只用把msbuild系统�
 > 这里不得不提一下虚拟机的快照功能，确实太好用了。这种系统级的文件操作，有了快照完全就和玩游戏一样嘛！
 
 然后，开始拷贝msbuild, 依赖的vc, crt, atlmfc, win sdk等... 最终精简下来，需要部署的内容大致有：
+
 ```
 windows/microsoft.net/assembly/microsoft.build.cpptask.common
 windows/microsoft.net/assembly/microsoft.build.cpptask.win32
@@ -37,6 +38,7 @@ program files(x86)/msbuild/microsoft.cpp/v4.0下的工具链
 
 program files(x86)/microsoft sdks/windows/v7.0a
 ```
+
 最后，再在注册表的HKLM/software/syswow64node/microsoft/msbuild | visualstudio | windows sdks几个项目下面添加一些注册表项，整个工具链就可以安装成功了
 
 这时候，再打开vs2013，选择do not upgrade，就可以用vc100工具链编译工程了。
