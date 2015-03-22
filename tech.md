@@ -1,6 +1,7 @@
+
 ---
 layout: page
-title: - Tech
+title: ·&nbspTech
 location: cate
 ---
 
