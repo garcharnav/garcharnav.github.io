@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Life
-location: head
+title: Category - Life
+location: cate
 ---
 
 <div class="posts">
