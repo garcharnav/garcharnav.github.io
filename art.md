@@ -1,9 +1,8 @@
 ---
-layout: 	page
-title: 		&nbsp&nbsp&nbspArt
-location: 	cate
+layout: page
+title: Art
+location: cate
 ---
-
 <div class="posts">
   {% for post in site.posts %}
   
