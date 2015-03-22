@@ -1,8 +1,9 @@
 ---
-layout: default
-title: Tech
-permalink: tech.html
+layout: page
+title: - Tech
+location: cate
 ---
+
 <div class="posts">
   {% for post in site.posts %}
   
