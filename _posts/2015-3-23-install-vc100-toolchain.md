@@ -10,7 +10,7 @@ category: tech
 
 #### 下载地址
 
-[???](http://???)
+[http://pan.baidu.com/s/1sjOBUkX](http://pan.baidu.com/s/1sjOBUkX)
 
 #### 安装注意事项
 
