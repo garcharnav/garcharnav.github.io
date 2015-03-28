@@ -4,6 +4,8 @@ title: Gallery
 location: head
 ---
 
+<br>
+
 这里展示了我创作的一些作品，尽量更新**技术与艺术结合**的作品。
 
 <br>
