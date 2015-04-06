@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vertex Array Object的纠缠
-category: hidden
+category: tech
 ---
 
 ### ·
