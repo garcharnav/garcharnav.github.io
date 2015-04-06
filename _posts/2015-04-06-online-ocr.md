@@ -8,7 +8,7 @@ category: life
 
 今天帮老婆从图片转一些文字，肯定是要用OCR了。有一些相关的软件，但是都太庞大。就转几张图，遂开始寻找在线OCR服务。
 
-> http://www.onlineocr.net/
+> [http://www.onlineocr.net/](http://www.onlineocr.net/) 
 
 尝试了几个国内网站，识别率太残忍了。之后，这个网站进入视野。先说说优点：
 
