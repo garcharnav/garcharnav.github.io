@@ -19,6 +19,28 @@ category: hidden
 （除了昨天发现的一个导致GL330比GLES2画面发暗的bug）。
 
 统一中，主要就是就Vertex Array Object的使用进行了封装。VAO主要有一下几个函数：
+
 * glGenVertexArrays
 * glBindVertexArray
 * glDeleteVertexArrays
+
+而在iOS中，VAO需要extension支持，就变为了
+
+* glGenVertexArraysOES
+* glBindVertexArrayOES
+* glDeleteVertexArraysOES
+
+好在只需要宏替换一下函数名，参数以及效果没有太大问题。
+
+而在android的adreno驱动中，也提供VAO的extension支持，但是使用了之后却发现顶点全部花掉。尝试搜索了很久解决方法，也只能放弃。最终在android中只能放弃使用VAO。
+
+因此，最终将VAO的过程抽象为**bind_or_gen_vao**, **use_layout**, **unbind_vao**三个过程。
+
+在三个阶段中根据平台，分别完成
+
+* genVAO/bindVAO 或 bindBuffer
+* 非VAO，应用vertex layout
+* unbindVAO 或 unbindBuffer
+
+最终，在三个平台上用同一套驱动代码驱动起来。
+
