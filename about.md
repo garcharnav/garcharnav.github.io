@@ -15,7 +15,7 @@ location: head
 
 我参与的项目
 
-* 蛮荒搜神记 [website](http://games.sina.com.cn/ol/n/2014-12-23/1040843278.shtml)
+* 蛮荒搜神记 [website](http://mh.changyou.com/)
 * OPENVRP [article](http://www.vrp3d.com/article/openVRP/shengkuang.html)
 
 
