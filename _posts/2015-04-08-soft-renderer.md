@@ -6,7 +6,7 @@ category: tech
 
 昨天花了些时间，将codeplex上的softrenderer v0.3 clone下来，然后做了些改动，迁移到github上。现已上传：
 
-[www.github.com/gameKnife/Softrenderer](www.github.com/gameKnife/Softrenderer)
+[https://github.com/gameKnife/Softrenderer](https://github.com/gameKnife/Softrenderer)
 
 这次修改的地方：
 
