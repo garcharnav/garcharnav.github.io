@@ -8,6 +8,16 @@ category: tech
 
 [https://github.com/gameKnife/Softrenderer](https://github.com/gameKnife/Softrenderer)
 
+目前的效率蛮高
+
+head, 640 x 360 px, 2186tri, 135fps
+
+![head](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/sr_show_2.jpg "head")
+
+sponza, 640 x 360 px, 78118tri, 27fps
+
+![head](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/sr_show_1.jpg "sponza")
+
 这次修改的地方：
 
 * 让softrenderer重新成为一个学习项目
