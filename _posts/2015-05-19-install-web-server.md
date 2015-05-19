@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 在yosemite配置apache+php+mysql服务器
+title: 在yosemite配置页面服务器
 category: tech
 ---
+
 
 ### ·
 
