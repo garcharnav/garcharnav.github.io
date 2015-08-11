@@ -28,6 +28,7 @@ layout: default
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
+    {% if post.category != site.cate.hidden %}
       <li>
         <p>
           <a href="{{ post.url }}">
@@ -36,6 +37,7 @@ layout: default
           </a>
         </p>
       </li>
+    {% endif %} 
     {% endfor %}
   </ul>
 </div>
