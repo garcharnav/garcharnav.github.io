@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 初到鹅厂
-category: hidden
+category: life
 ---
 
 ### ·
