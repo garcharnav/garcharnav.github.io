@@ -15,3 +15,9 @@ category: hidden
 
 * skybox使用了6个drawcall,并且有overdraw,可优化为一个全屏quad.
 * canvas group控制的下层空间，alpha为0之后并不清除
+* 
+
+### Trap in Unity
+
+* 一旦在运行时修改了material的属性，哪怕修改为一样的，unity也不会帮你自动做合并。每一个都变为了完全独立的material instance。
+  * 因此在运行时的material修改要十分谨慎
