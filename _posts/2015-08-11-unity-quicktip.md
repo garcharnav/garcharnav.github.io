@@ -28,3 +28,4 @@ category: hidden
   * 无后处理流程 opaque, transp -> renderbuffer
   * 原先流程 opaque, transp -> fbo0 || postprocess -> renderbuffer
   * 改变流程 opaque -> fbo0 || postprocess, transp -> fbo1 || copy fbo1 -> renderbuffer
+* 在MacOSX中switch到ios平台，UNITY_IPHONE宏会开启，因此不能只依靠此宏来区别设备，要加上!UNITY_EDITOR
