@@ -13,9 +13,9 @@ category: hidden
 
 ### Unity Optimize Room | version 4.6.3
 
-* skybox使用了6个drawcall,并且有overdraw,可优化为一个全屏quad.
-* canvas group控制的下层空间，alpha为0之后并不清除
-* depth texture需要单开rt和消耗drawcall来绘制，在支持depth_texture_oes扩展上的硬件皆是如此
+- [ ] skybox使用了6个drawcall,并且有overdraw,可优化为一个全屏quad.
+- [x] canvas group控制的下层空间，alpha为0之后并不清除
+- [x] depth texture需要单开rt和消耗drawcall来绘制，在支持depth_texture_oes扩展上的硬件皆是如此
 
 ### Trap in Unity
 
