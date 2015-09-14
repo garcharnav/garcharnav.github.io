@@ -24,3 +24,7 @@ category: hidden
 * unity3d在获取depth texture的时候，虽然manmal里提到如果能获取到system z buffer，则直接使用，但实际情况是几乎都需要重新绘制一遍场景来获得depth texture, 性能炸弹。
 * UniformSet基本只对GPU消耗增长，CPU端消耗开销不明显
 * MeshRenderer.sharedmaterial vs material
+* ImageEffectOpaque标识会让后处理提前到opaque绘制之后，transparent绘制之前。但这会造成一次额外的fbo转换
+  * 无后处理流程 opaque, transp -> renderbuffer
+  * 原先流程 opaque, transp -> fbo0 || postprocess -> renderbuffer
+  * 改变流程 opaque -> fbo0 || postprocess, transp -> fbo1 || copy fbo1 -> renderbuffer
