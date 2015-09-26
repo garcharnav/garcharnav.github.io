@@ -4,6 +4,8 @@ title: WE ARE MAKING A GREAT GAME!
 category: life
 ---
 
+![placeholder](https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/blog-add/sketch.jpg)
+
 不知不觉，到公司已经2个月了。
 这两个月，和团队融合，一起经历了一次ce，慢慢的和这一波有梦想和激情的人们熟络起来。
 
