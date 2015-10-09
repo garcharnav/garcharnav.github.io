@@ -36,8 +36,10 @@ location: head
 ## Contact me
 
 Email: kaimingyi@163.com
+
 Wechat: kaimingyi
-[Linkedin](https://www.linkedin.com/in/kaimingyi)
+
+[yikaiming@Linkedin](https://www.linkedin.com/in/kaimingyi)
 
 
 
