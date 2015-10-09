@@ -37,6 +37,8 @@ location: head
 
 ## Contact me
 
+---
+
 Email: kaimingyi@163.com
 
 Wechat: kaimingyi
