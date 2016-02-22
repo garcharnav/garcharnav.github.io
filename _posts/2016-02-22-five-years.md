@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 参加工作五周年
+title: 工作五周年
 category: life
 ---
 
