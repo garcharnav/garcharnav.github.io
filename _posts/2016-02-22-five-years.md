@@ -69,5 +69,5 @@ category: life
 
 The only way to do great work is to love what you do.
 
-官僚，制度，山头，FUCK OFF!
+官僚，制度，山头，GET THE FUCK OFF MY WAY!
 
