@@ -22,6 +22,8 @@ category: tech
 
 这一次的性能优化，才让我意识到了之前的一个很大的误区。
 
+<br>
+
 瓶颈所在
 ---
 
@@ -38,6 +40,8 @@ category: tech
 而Material.SetVector，最终其实只会促成glUniform4fv的调用，而这个调用在GLEngine库中的查看，全局消耗非常小。
 
 看来，最大的问题在于对Material.SetVector的优化！
+
+<br>
 
 瓶颈形成分析
 ---
