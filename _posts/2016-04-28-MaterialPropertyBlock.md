@@ -4,6 +4,8 @@ title: Unity3D中的MaterialPropertyBlock
 category: tech
 ---
 
+<br>
+
 背景故事
 ---
 
@@ -23,4 +25,21 @@ category: tech
 瓶颈所在
 ---
 
-在
+在初步demo实现之后，通过UntiyProfiler，逐步将实验期间的(12ms/9chr)的cpu消耗，降低到(1ms/9chr)。然而结果并不理想，因为主线程的cpu skin prepare + skin wait也仅仅使用了(0.8ms/9chr)。
+
+不过还是准备将用例直接port到真机上看看瓶颈所在。
+
+不看不知道，一看吓一跳。
+
+在iPhone5S上，消耗为3ms/9chr，而cpu skin的消耗为2.5-3ms/9chr。看起来，和PC上比例差不太多。
+
+而当我在Instrument Time Profiler中仔细查看调用才发现，GSKINRenderer.Update的消耗，超过50%都消耗在了Material.SetVector这个函数之上！而我本身认为非常繁重值得优化的一个Matrix4x4 Decompose操作，仅仅消耗了大约25%的时间。
+
+而Material.SetVector，最终其实只会促成glUniform4fv的调用，而这个调用在GLEngine库中的查看，全局消耗非常小。
+
+看来，最大的问题在于对Material.SetVector的优化！
+
+瓶颈形成分析
+---
+
+那么
