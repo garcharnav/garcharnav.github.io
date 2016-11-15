@@ -46,3 +46,10 @@ footer-links:
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
+
+# resume things
+
+name: Yi Kaiming
+job: game develop engineer
+location: Chengdu, China
+languages: Game Development & Graphic Development
