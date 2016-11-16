@@ -2,8 +2,10 @@
     company: Tencent
     period: 2016.3 - Current
     description:
-    - Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit, <br>sed do eiusmod tempor.
-    - aha
+    - <li>Lorem ipsum dolor sit amet, <li>
+    - <br><li>consectetur adipiscing elit, <li>
+    - <br>sed do eiusmod tempor.
+    - <br>aha
 -   title: QCube
     company: Tencent
     period: 2015.7 - 2016.3
