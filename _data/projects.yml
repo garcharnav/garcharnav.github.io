@@ -2,13 +2,13 @@
     company: Tencent
     period: 2016.3 - Current
     description:
-    - <li>UNITY3D Performance Optimizing</li><br>
-    - GC reducing / Non-scale-uniform mesh reducing / Gpu cost reducing<br>
-    - <li>Unity3D Assets Workflow</li><br>
-    - Daliy scan & daily report for Assets / In editor assets profile tools / mass assets compare tools<br>
-    - <li>Graphics Development</li> <br>
+    - <li>UNITY3D Performance Optimizing</li>
+    - GC reducing / Non-scale-uniform mesh reducing / Gpu cost reducing
+    - <li>Unity3D Assets Workflow</li>
+    - Daliy scan & daily report for Assets / In editor assets profile tools / mass assets compare tools
+    - <li>Graphics Development</li>
     - Custom gpu skin support GLES2 / Mat-cap character shader (high quality & high performance on mobile platform)
-    
+
 -   title: QCube
     company: Tencent
     period: 2015.7 - 2016.3
