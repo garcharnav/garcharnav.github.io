@@ -41,19 +41,26 @@
     - / Implement device of Open GLES2 and Open GL
     - <li>Architect</li>
     - In charge of design and develop the renderer, scene management, animation modules
-    - / In charge of build the solution of cross platform (independent player, share base library and data)
+    - / build the solution of cross platform (independent player, share base library and data)
     - <li>Editor</li>
     - Build the editor framework with XTP Library
     - / Design and develop some base controller(CustomColorPicker, TexturePicker, etc)
     - <li>Optimizing</li>
     - Profile and optimizing the performance of engine from begin to end
 
--   title: X52
-    company: Horizon3D
-    period: 2012.9 - 2013.4
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 -   title: GodSlayer
     company: Changyou
     period: 2011.2 - 2012.9
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description:
+    - <li> Graphics </li>
+    - Skin simulating / Color divide area / Shell effect
+    - <li> Combat </li>
+    - Real-time attack area system, frame-rate non-depend / Mass body physic mechanic
+    - <li> Tech-Artist </li>
+    - 3DS Max plugin development, complete the poor tool-chain of CryEngine / Reserch and write some document of skilled use of CryEngine
+    - <li> Optimizing </li>
+    - Optimizing CryEngine with internal & external profiler
+    - <li> Animation</li>
+    - Reserch the IK System of CryEngine, tweak the biped IK System / Build 4-feet IK System for more creatures
+    - <li> Gamplay </li>
+    - Maintain and develop the skill system, implement more node of special effects.
