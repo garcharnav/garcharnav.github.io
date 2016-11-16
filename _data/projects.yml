@@ -12,17 +12,41 @@
 -   title: QCube
     company: Tencent
     period: 2015.7 - 2016.3
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description:
+    - <li>UNITY3D Native rendering research</li>
+    - Update vbo & draw call in C++ / native fbo grabing / Effective shadowmap
+    - <li>Tech-Artist works</li>
+    - In charge of TimeOfDay System / all shaders / build artist work-flow & graphic budget
+    - <li>Voxel rendering</li>
+    - Real-time light transfer based on Cellular Automata / Voxel mesh batching(auto texture atlas)
+    - <li>Gameplay</li>
+    - Chunk based entity system design, base facility development / Many other gameplay modules
+    - <li>FPP Demo leader</li>
+    - Lead 6 person team to develop a FPP demo within 2 weeks
 
 -   title: gkENGINE
     company: Personal
     period: 2010.10 - Current
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description:
+    - <li>A personal open-source project</li>
+    - host on <a>https://github.com/gameknife/gkEngine</a>
 
 -   title: OpenVRP
     company: Vistandard
     period: 2013.4 - 2015.7
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description:
+    - <li> Base Library </li>
+    - Base threading, IO, JOB, Hardware texture format library for all platforms.
+    - / Design the abstract device interfaces, based on DX11.
+    - / Implement device of Open GLES2 and Open GL.
+    - <li>Architect</li>
+    - In charge of design and develop the renderer, scene management, animation modules.
+    - / In charge of build the solution of cross platform(independent player, share base library and data).
+    - <li>Editor</li>
+    - Build the editor framework with XTP Library.
+    - / Design and develop some base controller(CustomColorPicker, TexturePicker, etc).
+    - <li>Optimizing</li>
+    - Profile and optimizing the performance of engine from begin to end.
 
 -   title: X52
     company: Horizon3D
