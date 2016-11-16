@@ -29,24 +29,24 @@
     period: 2010.10 - Current
     description:
     - <li>A personal open-source project</li>
-    - host on <a>https://github.com/gameknife/gkEngine</a>
+    - Hosted on <a>https://github.com/gameknife/gkEngine</a>
 
 -   title: OpenVRP
     company: Vistandard
     period: 2013.4 - 2015.7
     description:
     - <li> Base Library </li>
-    - Base threading, IO, JOB, Hardware texture format library for all platforms.
-    - / Design the abstract device interfaces, based on DX11.
-    - / Implement device of Open GLES2 and Open GL.
+    - Base threading, IO, JOB, Hardware texture format library for all platforms
+    - / Design the abstract device interfaces, based on DX11
+    - / Implement device of Open GLES2 and Open GL
     - <li>Architect</li>
-    - In charge of design and develop the renderer, scene management, animation modules.
-    - / In charge of build the solution of cross platform(independent player, share base library and data).
+    - In charge of design and develop the renderer, scene management, animation modules
+    - / In charge of build the solution of cross platform (independent player, share base library and data)
     - <li>Editor</li>
-    - Build the editor framework with XTP Library.
-    - / Design and develop some base controller(CustomColorPicker, TexturePicker, etc).
+    - Build the editor framework with XTP Library
+    - / Design and develop some base controller(CustomColorPicker, TexturePicker, etc)
     - <li>Optimizing</li>
-    - Profile and optimizing the performance of engine from begin to end.
+    - Profile and optimizing the performance of engine from begin to end
 
 -   title: X52
     company: Horizon3D
