@@ -11,9 +11,9 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
-@media(min-width: 640px) {
+@media(min-width: 30em) {
     dt, dd {
-        margin-bottom: 60px;
+        margin-bottom: 3em;
     }
 
     .experience {
@@ -47,5 +47,83 @@ a {
     &:hover {
         background: rgba(245, 215, 110, 1);
         text-decoration: none;
+    }
+}
+
+/* ==========================================================================
+PRINT
+========================================================================== */
+
+/* Basic print styles from https://html5boilerplate.com/ */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    html {
+        background: inherit !important;
+        padding: 0 !important;
+    }
+
+    body {
+        border: 0 !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline !important;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+    * Don't show links that are fragment identifiers,
+    * or use the `javascript:` pseudo protocol
+    */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+    * Printing Tables:
+    * http://css-discuss.incutio.com/wiki/Printing_Tables
+    */
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3,
+    header {
+        page-break-after: avoid;
     }
 }
