@@ -11,13 +11,19 @@
     - <li>基础设施构建</li>
     - 
     - <li>美术资源规格规划与监控</li>
-    - 
+    - <ul style="margin-left: 1em;">
+    - <lis>角色，场景物件，特效的美术规格设计</lis>
+    - <lis>美术资源的每日自动扫描与报告生成</lis>
+    - </ul>
+    
     - <li>美术资源工作流及工具集</li>
-    - <uls>
+
+    - <ul style="margin-left: 1em;">
     - <lis>基于Unity5的图集压缩透明贴图优化</lis>
-    - <lis>运行时动态纹理生成及编辑器</lis>
+    - <lis>运行时动态纹理生成及美术编辑器</lis>
     - <lis>资源导入importer控制</lis>
-    - </uls>
+    - </ul>
+
 -   title: WeShoot
     company: Tencent
     period: 2016.3 - Current
