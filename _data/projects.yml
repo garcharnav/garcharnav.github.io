@@ -3,20 +3,44 @@
     period: 2016.7 - Current
     description:
     - <li>项目性能设计与优化</li>
-    - 
-    - <li>角色的渲染方案</li>
-    - 
-    - <li>场景与特效渲染方案和性能控制</li>
-    - 
+
+    - <ul>
+    - <hr/>
+    - <lis>项目整体周期的性能profile和优化预警</lis>
+    - <lis>开发多种运行时的辅助profile功能</lis>
+    - <lis>基于xcode instrument和adreno profiler的详细图形性能分析和优化</lis>
+    - </ul>
+    - <br>
+    
+    - <li>角色、场景与特效渲染方案和性能控制</li>
+    - <ul>
+    - <hr/>
+    - <lis>基于matcap光照的精灵渲染（表面质感模拟、质感区分、自阴影）</lis>
+    - <lis>自定义lightmap材质（光照贴图，高光质感区分）</lis>
+    - <lis>特效着色器（多种混合模式和运动模式，特殊材质）</lis>
+    - <lis>统一的材质编辑器扩展，支持marco开关，支持裁剪/混合的材质内设置</lis>
+    - </ul>
+    - <br>
+    
     - <li>基础设施构建</li>
-    - 
+    - <ul>
+    - <hr/>
+    - <lis>PoolObj & PoolManager</lis>
+    - <lis>WWISE音频系统接入和抽象</lis>
+    - <lis>编译期pre/post task结构</lis>
+    - </ul>
+    - <br>
+    
     - <li>美术资源规格规划与监控</li>
+
     - <ul>
     - <hr/>
     - <lis>角色，场景物件，特效的美术规格设计</lis>
     - <lis>美术资源的每日自动扫描与报告生成</lis>
+    - <lis>构建封包中的资源容量占比分析</lis>
     - </ul>
-    
+    - <br>
+
     - <li>美术资源工作流及工具集</li>
 
     - <ul>
@@ -24,7 +48,9 @@
     - <lis>基于Unity5的图集压缩透明贴图优化</lis>
     - <lis>运行时动态纹理生成及美术编辑器</lis>
     - <lis>资源导入importer控制</lis>
+    - <lis>针对美术的多种离线级模型渲染器，用于快速出UI用图</lis>
     - </ul>
+    - <br>
 
 -   title: WeShoot
     company: Tencent
