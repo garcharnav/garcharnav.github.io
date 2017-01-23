@@ -13,10 +13,11 @@
     - <li>美术资源规格规划与监控</li>
     - 
     - <li>美术资源工作流及工具集</li>
-    - 基于Unity5的图集压缩透明贴图优化
-    - 运行时动态纹理生成及编辑器
-    - 资源导入importer控制
-    
+    - <ul>
+    - <lis>基于Unity5的图集压缩透明贴图优化</lis>
+    - <lis>运行时动态纹理生成及编辑器</lis>
+    - <lis>资源导入importer控制</lis>
+    - </ul>
 -   title: WeShoot
     company: Tencent
     period: 2016.3 - Current
