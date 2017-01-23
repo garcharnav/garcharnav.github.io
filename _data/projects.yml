@@ -1,5 +1,5 @@
 -   title: Project G
-    company: Tencent
+    company: Tencent Timi J5 Studio
     period: 2016.7 - Current
     description:
     - <li>项目性能设计与优化</li>
@@ -63,68 +63,120 @@
     - <br>
 
 -   title: WeShoot
-    company: Tencent
+    company: Tencent Timi J1 Studio
     period: 2016.3 - Current
     description:
-    - <li>UNITY3D Performance Optimizing</li>
-    - GC reducing / Non-scale-uniform mesh reducing / Gpu cost reducing
-    - <li>Unity3D Assets Workflow</li>
-    - Daliy scan & daily report for Assets / In editor assets profile tools / mass assets compare tools
-    - <li>Graphics Development</li>
+    - <li>UNITY3D性能优化</li>
+    - <ul>
+    - <hr/>
+    - <lis>GC Alloc控制</lis>
+    - <lis>Non-Uniform-Scale网格内存优化</lis>
+    - <lis>GPU消耗优化</lis>
+    - </ul>
+    - <br>
+
+    - <li>Unity3D资源工作流</li>
+    - <ul>
+    - <hr/>
+    - <lis>每日资源扫描与报告系统</lis>
+    - <lis>编辑器内的资源profile工具集</lis>
+    - </ul>
+    - <br>
+
+    - <li>图形开发工作</li>
+    - <ul>
+    - <hr/>
+    - <lis>自制gpu skin方案，支持GLES2</lis>
+    - <lis>Mat-cap角色材质（高性价比的移动平台实现）</lis>
+    - </ul>
+    - <br>
     - Custom gpu skin support GLES2 / Mat-cap character shader (high quality & high performance on mobile platform)
 
 -   title: QCube
-    company: Tencent
+    company: Tencent IEG R&D
     period: 2015.7 - 2016.3
     description:
-    - <li>UNITY3D Native rendering research</li>
-    - Update vbo & draw call in C++ / native fbo grabing / Effective shadowmap
-    - <li>Tech-Artist works</li>
-    - In charge of TimeOfDay System / all shaders / build artist work-flow & graphic budget
-    - <li>Voxel rendering</li>
-    - Real-time light transfer based on Cellular Automata / Voxel mesh batching(auto texture atlas)
+    - <li>UNITY3D Native渲染研究</li>
+    - <ul>
+    - <hr/>
+    - <lis>在c++库中的vbo更新与Drawcall</lis>
+    - <lis>原生fbo的抓取（快速实现景深，SSAO等后处理效果）</lis>
+    - <lis>更加高效的shadowmap</lis>
+    - </ul>
+    - <br>
+
+    - <li>技术美术工作</li>
+    - <ul>
+    - <hr/>
+    - <lis>主导设计和实现昼夜天候效果</lis>
+    - <lis>全部着色器开发</lis>
+    - <lis>美术工作流的建立和图形性能预算制定</lis>
+    - </ul>
+    - <br>
+
+    - <li>体素渲染</li>
+    - <ul>
+    - <hr/>
+    - <lis>基于元胞自动机的实时光能传递</lis>
+    - <lis>体素世界的batching方案设计与实现</lis>
+    - </ul>
+    - <br>    
+   
     - <li>Gameplay</li>
-    - Chunk based entity system design, base facility development / Many other gameplay modules
-    - <li>FPP Demo leader</li>
-    - Lead 6 person team to develop a FPP demo within 2 weeks
+    - <ul>
+    - <hr/>
+    - <lis>基于Chunk的Entity系统设计</lis>
+    - <lis>游戏基础设施构建</lis>
+    - <lis>各种实际模块开发</lis>
+    - <lis>带领6人团队在两周内开发一个快速fpp版本</lis>
+    - </ul>
+    - <br>    
+   
 
 -   title: gkENGINE
     company: Personal
     period: 2010.10 - Current
     description:
-    - <li>A personal open-source project</li>
+    - <li>个人开源引擎项目</li>
     - Hosted on <a href="https://github.com/gameknife/gkEngine" target="_blank">https://github.com/gameknife/gkEngine</a>
 
 -   title: OpenVRP
     company: Vistandard
     period: 2013.4 - 2015.7
     description:
-    - <li> Base Library </li>
-    - Base threading, IO, JOB, Hardware texture format library for all platforms
-    - / Design the abstract device interfaces, based on DX11
-    - / Implement device of Open GLES2 and Open GL
-    - <li>Architect</li>
-    - In charge of design and develop the renderer, scene management, animation modules
-    - / build the solution of cross platform (independent player, share base library and data)
-    - <li>Editor</li>
-    - Build the editor framework with XTP Library
-    - / Design and develop some base controller(CustomColorPicker, TexturePicker, etc)
-    - <li>Optimizing</li>
-    - Profile and optimizing the performance of engine from begin to end
+    - <li> 基础库 </li>
+    - 跨平台的线程, IO, JOB库开发
+    - 抽象Device，基于dx11结构，同时开发其在opengles2和opengl上的实现
+    - <li> 架构 </li>
+    - 主导渲染器，场景管理，动画系统的设计与开发
+    - 跨平台解决方案（跨平台的操作系统封装，数据共通）
+    - <li> 编辑器 </li>
+    - 主导开发OpenVRP编辑器
+
+-   title: X52
+    company: Horizon3D
+    period: 2012.9 - 2013.4
+    description:
+    - <li> 毛发模拟预研 </li>
+    - 巨量发丝（8w根同屏）的运动模拟（弹性，碰撞，飘曳）和渲染模拟（各向异性光照），基于dx9，全gpu实现
+    - <li> 兼容性开发 </li>
+    - 为x52和x51项目解决疑难图形bug，引入d3d9ex来解决某些设备丢失问题和显存问题
+    - <li> 性能优化 </li>
+    - 为x52开发外挂profiler，可以对每一个版本进行运行时的性能profile，随时进行自动性能跟踪和报告生成。
 
 -   title: GodSlayer
     company: Changyou
     period: 2011.2 - 2012.9
     description:
-    - <li> Graphics </li>
-    - Skin simulating / Color divide area / Shell effect
-    - <li> Combat </li>
-    - Real-time attack area system, frame-rate non-depend / Mass body physic mechanic
-    - <li> Tech-Artist </li>
-    - 3DS Max plugin development, complete the poor tool-chain of CryEngine / Reserch and write some document of skilled use of CryEngine
-    - <li> Optimizing </li>
-    - Optimizing CryEngine with internal & external profiler
-    - <li> Animation</li>
-    - Reserch the IK System of CryEngine, tweak the biped IK System / Build 4-feet IK System for more creatures
+    - <li> 图形开发 </li>
+    - 皮肤模拟 / 变色区域 / 壳材质
+    - <li> 战斗 </li>
+    - 实时的帧率无关的攻击区域判定 / 大型生物的部位破坏实现
+    - <li> 技术美术工作 </li>
+    - 3DS Max 插件开发, 完善CryEngine工具链，为美术提供技术美术培训
+    - <li> 优化 </li>
+    - 通过内置／外置的profiler，对CryEngine项目进行性能优化
+    - <li> 动画 </li>
+    - 对CryEngine的双足IK系统进行调优，同时基于双足IK系统扩展出四足IK系统
     - <li> Gamplay </li>
-    - Maintain and develop the skill system, implement more node of special effects.
+    - 维护与开发技能编辑器
