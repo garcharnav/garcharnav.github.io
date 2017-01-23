@@ -34,7 +34,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-	margin-left: 1em;
 }
 
 blockquote, q {
@@ -61,4 +60,5 @@ lis {
 	line-height: 1.25;
 	font-weight: normal;
 	display: list-item;
+	margin-left: 1em;	
 }
