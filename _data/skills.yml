@@ -1,24 +1,11 @@
 -   qualification: Programming
     description: 
-    - <li>语言能力</li>
-
     - <ul>
-    - <hr/>
-
     - <lis>十年c/c++/c#编程经验，三年js/ts等动态语言经验</lis>
     - <lis>精通hlsl/glsl等着色器语言和各种tricks</lis>
-
-    - </ul>
-    - <br>
-
-    - <li>知识结构</li>
-
-    - <ul>
-    - <hr/>
     - <lis>坚实的高等数学/线性代数基础，图形学原理知识，从底层实现硬件渲染流程的能力与实践</lis>
     - <lis>熟悉多种现代游戏引擎结构，熟悉多种常用设计模式</lis>
     - <lis>熟悉现代桌面/移动平台显卡硬件加速原理和优化实践</lis>
-
     - </ul>
     - <br>
 
@@ -26,22 +13,17 @@
     description:
 
     - <ul>
-    - <hr/>
     - <lis>从小爱好绘画，接受专业美术训练，较好的美术基础和审美</lis>
     - <lis>熟练使用生产力工具(3dsmax/cinema4d/photoshop/substance designer/painter),理解并实践美术工作流</lis>
     - <lis>与美术专业同事有良好的共识和交流基础以及游戏偏好</lis>
-
     - </ul>
     - <br>
 
 -   qualification: Gaming
     description:
 
-
     - <ul>
-    - <hr/>
     - <lis>94年接触游戏，硬核主机游戏玩家，steam深度用户(23级,200+游戏收藏,2000+总游戏时长)</lis>
     - <lis>参与部分游戏mod制作</lis>
-
     - </ul>
     - <br>
