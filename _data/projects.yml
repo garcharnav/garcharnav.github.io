@@ -188,9 +188,10 @@
     company: Personal
     period: 2010.10 - Current
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:: 100%;">
     - <li>个人开源引擎项目</li>
     - Hosted on <a href="https://github.com/gameknife/gkEngine" target="_blank">https://github.com/gameknife/gkEngine</a>
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" title="gkEngine室外截图1">
+
 
 
 -   title: OpenVRP
