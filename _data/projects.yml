@@ -5,48 +5,33 @@
     - <li>项目性能优化</li>
     - <ul>
     - <hr/>
-    - <lis>项目整体周期的性能profile和优化预警</lis>
-    - <lis>项目整体开发期的内存优化与预警</lis>
-    - <lis>开发多种运行时的辅助profile功能</lis>
-    - <lis>基于xcode instrument和adreno profiler的详细图形性能分析和优化</lis>
+    - <lis>项目周期内的性能优化和内存优化，开发工具/底层修改和重构/监控扫描</lis>
     - </ul>
     - <br>
     
-    - <li>角色、场景与特效渲染特性开发</li>
+    - <li>高级渲染特性开发</li>
     - <ul>
     - <hr/>
-    - <lis>基于matcap光照的角色渲染（表面质感模拟、质感区分、自阴影）</lis>
-    - <lis>自定义快速场景材质（光照贴图，高光质感区分，CUBEMAP快速光照）</lis>
-    - <lis>特效着色器（多种混合模式和运动模式，特殊材质）</lis>
-    - <lis>统一的材质编辑器扩展，支持marco开关，支持裁剪/混合的材质内设置</lis>
-    - </ul>
-    - <br>
-    
-    - <li>基础设施构建</li>
-    - <ul>
-    - <hr/>
-    - <lis>PoolObj & PoolManager</lis>
-    - <lis>WWISE音频系统接入和抽象</lis>
-    - <lis>编译期pre/post task结构</lis>
+    - <lis>展示角色的特殊渲染方式，基于独立相机的UI混排</lis>
+    - <lis>局部抗锯齿方案，在保证性能的前提下提升展示角色的实时渲染效果</lis>
+    - <lis>shell特效系统，为固定角色提供多种临时替代特效的解决方案（特殊效果/描边/假实时阴影/假实时反射等）</lis>
+    - <lis>基于gpu加速的伤害数字系统，完全消除动态效果下的mesh提交和重新生成，提供更丰富的动态效果</lis>
     - </ul>
     - <br>
     
     - <li>AR功能集成</li>
     - <ul>
     - <hr/>
-    - <lis>基于相机和陀螺仪的AR实现</lis>
-    - <lis>基于相机数据的光照环境模拟</lis>
-    - <lis>虚实景象的结合实现</lis>
+    - <lis>Unity4下的iOS Arkit集成，华为hiAR集成</lis>
+    - <lis>AR抽卡和AR召唤功能设计</lis>
     - </ul>
     - <br>
 
     - <li>美术资源工作流及工具集</li>
     - <ul>
     - <hr/>
-    - <lis>基于Unity5的图集压缩透明贴图优化</lis>
-    - <lis>运行时动态纹理生成及美术编辑器</lis>
-    - <lis>资源导入importer控制</lis>
-    - <lis>针对美术的多种离线级模型渲染器，用于快速出UI用图</lis>
+    - <lis>资源规格的处理和监控</lis>
+    - <lis>为美术提供各种资源处理和操作工具</lis>
     - </ul>
     - <br>
 
@@ -116,7 +101,7 @@
 
 -   title: WeShoot（魂斗罗：归来）
     company: Tencent Timi J1 Studio
-    period: 2016.3 - Current
+    period: 2016.3 - 2016.7
     description:
     - <li>UNITY3D性能优化</li>
     - <ul>
