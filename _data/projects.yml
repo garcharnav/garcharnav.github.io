@@ -188,8 +188,10 @@
     company: Personal
     period: 2010.10 - Current
     description:
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;">
     - <li>个人开源引擎项目</li>
+    - <br>
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;">
+    - <br>
     - Hosted on <a href="https://github.com/gameknife/gkEngine" target="_blank">https://github.com/gameknife/gkEngine</a>
 
 
@@ -199,13 +201,24 @@
     period: 2013.4 - 2015.7
     description:
     - <li> 基础库 </li>
+    - <ul>
+    - <hr/>
     - <lis>跨平台的线程, IO, JOB库开发</lis>
     - <lis>抽象Device，基于dx11结构，同时开发其在opengles2和opengl上的实现</lis>
+    - </ul>
+
     - <li> 架构 </li>
+    - <ul>
+    - <hr/>
     - <lis>主导渲染器，场景管理，动画系统的设计与开发</lis>
     - <lis>跨平台解决方案（跨平台的操作系统封装，数据共通）</lis>
+    - </ul>
+
     - <li> 编辑器 </li>
+    - <ul>
+    - <hr/>
     - <lis>主导开发OpenVRP编辑器，基于xtp ui框架</lis>
+    - </ul>
 
 -   title: X52（QQ炫舞2）
     company: Horizon3D
