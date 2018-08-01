@@ -1,3 +1,15 @@
+<h3 class="section-title">Skill</h3>
+<dl class="education">
+    {% for qualification in site.data.skills %}
+        <dt>
+            <p class="title">{{ qualification.qualification }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
 <h3 class="section-title">Experience</h3>
 <dl class="experience">
     {% for job in site.data.jobs %}
