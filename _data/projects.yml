@@ -210,25 +210,46 @@
     period: 2012.9 - 2013.4
     description:
     - <li> 毛发模拟预研 </li>
-    - 巨量发丝（8w根同屏）的运动模拟（弹性，碰撞，飘曳）和渲染模拟（各向异性光照），基于dx9，全gpu实现
+    
+    - <ul>
+    - <hr/>
+    - <lis>巨量发丝（8w根同屏）的运动模拟（弹性，碰撞，飘曳）和渲染模拟（各向异性光照），基于dx9，全gpu实现</lis>
+    - </ul>
+
     - <li> 兼容性开发 </li>
+
+    - <ul>
+    - <hr/>
     - 为x52和x51项目解决疑难图形bug，引入d3d9ex来解决某些设备丢失问题和显存问题
+    - </ul>
+
     - <li> 性能优化 </li>
+    - <ul>
+    - <hr/>
     - 为x52开发外挂profiler，可以对每一个版本进行运行时的性能profile，随时进行自动性能跟踪和报告生成。
+    - </ul>
 
 -   title: GodSlayer（蛮荒搜神记）
     company: Changyou
     period: 2011.2 - 2012.9
     description:
     - <li> 图形开发 </li>
+    - <ul>
+    - <hr/>
     - 皮肤模拟 / 变色区域 / 壳材质
+
     - <li> 战斗 </li>
+    - <hr/>
     - 实时的帧率无关的攻击区域判定 / 大型生物的部位破坏实现
     - <li> 技术美术工作 </li>
+    - <hr/>
     - 3DS Max 插件开发, 完善CryEngine工具链，为美术提供技术美术培训
     - <li> 优化 </li>
+    - <hr/>
     - 通过内置／外置的profiler，对CryEngine项目进行性能优化
     - <li> 动画 </li>
+    - <hr/>
     - 对CryEngine的双足IK系统进行调优，同时基于双足IK系统扩展出四足IK系统
     - <li> Gamplay </li>
+    - <hr/>
     - 维护与开发技能编辑器
