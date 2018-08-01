@@ -1,4 +1,4 @@
--   title: SSKGame(圣斗士星矢-腾讯))
+-   title: SSKGame（圣斗士星矢-腾讯）
     company: Tencent Timi L1 Studio
     period: 2017.5 - Current
     description:
@@ -50,7 +50,7 @@
     - </ul>
     - <br>
 
--   title: Project G(一起来捉妖)
+-   title: Project G（一起来捉妖）
     company: Tencent Timi J5 Studio
     period: 2016.7 - 2017.5
     description:
@@ -114,7 +114,7 @@
     - </ul>
     - <br>
 
--   title: WeShoot(魂斗罗：归来)
+-   title: WeShoot（魂斗罗：归来）
     company: Tencent Timi J1 Studio
     period: 2016.3 - Current
     description:
@@ -143,7 +143,7 @@
     - </ul>
     - <br>
 
--   title: Cube(乐高沙盒)
+-   title: Cube（乐高沙盒）
     company: Tencent IEG R&D
     period: 2015.7 - 2016.3
     description:
@@ -190,6 +190,8 @@
     description:
     - <li>个人开源引擎项目</li>
     - Hosted on <a href="https://github.com/gameknife/gkEngine" target="_blank">https://github.com/gameknife/gkEngine</a>
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" title="gkEngine室外截图1">
+
 
 -   title: OpenVRP
     company: Vistandard
@@ -204,7 +206,7 @@
     - <li> 编辑器 </li>
     - <lis>主导开发OpenVRP编辑器，基于xtp ui框架</lis>
 
--   title: X52(QQ炫舞2))
+-   title: X52（QQ炫舞2）
     company: Horizon3D
     period: 2012.9 - 2013.4
     description:
@@ -215,7 +217,7 @@
     - <li> 性能优化 </li>
     - 为x52开发外挂profiler，可以对每一个版本进行运行时的性能profile，随时进行自动性能跟踪和报告生成。
 
--   title: GodSlayer(蛮荒搜神记)
+-   title: GodSlayer（蛮荒搜神记）
     company: Changyou
     period: 2011.2 - 2012.9
     description:
