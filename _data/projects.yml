@@ -2,6 +2,8 @@
     company: Tencent Timi L1 Studio
     period: 2017.5 - Current
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/ssk.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
     - <li>项目性能优化</li>
     - <ul>
     - <hr/>
@@ -40,6 +42,9 @@
     company: Tencent Timi J5 Studio
     period: 2016.7 - 2017.5
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/gwgo.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+
     - <li>项目性能设计与优化</li>
 
     - <ul>
@@ -104,6 +109,9 @@
     company: Tencent Timi J1 Studio
     period: 2016.3 - 2016.7
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/contra.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+
     - <li>UNITY3D性能优化</li>
     - <ul>
     - <hr/>
@@ -133,6 +141,9 @@
     company: Tencent IEG R&D
     period: 2015.7 - 2016.3
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/cube.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+
     - <li>UNITY3D Native渲染研究</li>
     - <ul>
     - <hr/>
@@ -209,7 +220,7 @@
     description:
     - <li>个人开源webgl着色器编辑工具</li>
     - <br>
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/shadermonki.png" alt="placeholder" style="width:100%;padding:0 1em 1em;">
     - <br>
     - Hosted on <a href="https://github.com/gameknife/electron-shadermonki" target="_blank">https://github.com/gameknife/electron-shadermonki</a>
 
@@ -241,6 +252,9 @@
     company: Horizon3D
     period: 2012.9 - 2013.4
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/x52.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+
     - <li> 毛发模拟预研 </li>
     - <ul>
     - <hr/>
@@ -266,6 +280,9 @@
     company: Changyou
     period: 2011.2 - 2012.9
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/godslayer.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+
     - <li> 图形开发 </li>
     - <hr/>
     - <ul>
