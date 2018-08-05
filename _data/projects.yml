@@ -175,7 +175,7 @@
     description:
     - <li>个人开源软件渲染器项目</li>
     - <br>
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;">
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
     - <br>
     - Hosted on <a href="https://github.com/gameknife/SoftRenerer" target="_blank">https://github.com/gameknife/SoftRenderer</a>
 
@@ -185,11 +185,19 @@
     description:
     - <li>个人开源引擎项目</li>
     - <br>
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;">
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
     - <br>
     - Hosted on <a href="https://github.com/gameknife/gkEngine" target="_blank">https://github.com/gameknife/gkEngine</a>
 
-
+-   title: electron-shadermonki
+    company: Personal
+    period: 2016.10 - Current
+    description:
+    - <li>个人开源webgl着色器编辑工具</li>
+    - <br>
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
+    - <br>
+    - Hosted on <a href="https://github.com/gameknife/electron-shadermonki" target="_blank">https://github.com/gameknife/electron-shadermonki</a>
 
 -   title: OpenVRP
     company: Vistandard
@@ -220,16 +228,15 @@
     period: 2012.9 - 2013.4
     description:
     - <li> 毛发模拟预研 </li>
-    
-    - <hr/>
     - <ul>
+    - <hr/>
     - <lis>巨量发丝（8w根同屏）的运动模拟（弹性，碰撞，飘曳）和渲染模拟（各向异性光照），基于dx9，全gpu实现</lis>
+    - </ul>
     - <br>
 
     - <li> 兼容性开发 </li>
-
-    - <hr/>
     - <ul>
+    - <hr/>
     - <lis>为x52和x51项目解决疑难图形bug，引入d3d9ex来解决某些设备丢失问题和显存问题</lis>
     - </ul>
     - <br>
@@ -249,6 +256,7 @@
     - <hr/>
     - <ul>
     - <lis>皮肤模拟 / 变色区域 / 壳材质</lis>
+    - </ul>
     - <br>
 
     - <li> 战斗 </li>
