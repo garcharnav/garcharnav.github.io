@@ -173,7 +173,7 @@
     company: Personal
     period: 2013.10 - Current
     description:
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/sr2.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
     - <br>
     - <li>个人开源软件渲染器项目</li>
     - <ul>
@@ -191,7 +191,7 @@
     company: Personal
     period: 2010.10 - 2017.1
     description:
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/indoor3.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
     - <br>
     - <li>个人开源引擎项目</li>
     - <ul>
@@ -209,7 +209,7 @@
     description:
     - <li>个人开源webgl着色器编辑工具</li>
     - <br>
-    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
     - <br>
     - Hosted on <a href="https://github.com/gameknife/electron-shadermonki" target="_blank">https://github.com/gameknife/electron-shadermonki</a>
 
