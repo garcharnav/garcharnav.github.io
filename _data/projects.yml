@@ -173,19 +173,33 @@
     company: Personal
     period: 2013.10 - Current
     description:
-    - <li>个人开源软件渲染器项目</li>
-    - <br>
     - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
     - <br>
-    - Hosted on <a href="https://github.com/gameknife/SoftRenerer" target="_blank">https://github.com/gameknife/SoftRenderer</a>
+    - <li>个人开源软件渲染器项目</li>
+    - <ul>
+    - <hr/>
+    - <lis>使用cpu实现gpu的图形管线</lis>
+    - <lis>自行实现数学库，利用simd加速</lis>
+    - <lis>自行实现线程和job抽象，利用多线程加速</lis>
+    - <lis>基于可编程着色器管线逻辑，并支持多种复杂着色流程，sponza场景fps达到可交互的30+fps@i7 4core 7700K</lis>
+    - <lis>基于electron&node-gyp技术栈，使得渲染器模块更加纯粹跨平台，通过现代web技术快速构建交互界面</lis>
+    - </ul>
+    - <br>
+    - Hosted on <a href="https://github.com/gameknife/SoftRenderer" target="_blank">https://github.com/gameknife/SoftRenderer</a>
 
 -   title: gkENGINE
     company: Personal
     period: 2010.10 - 2017.1
     description:
-    - <li>个人开源引擎项目</li>
-    - <br>
     - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/out1.jpg" alt="placeholder" style="width:100%;padding:1em;">
+    - <br>
+    - <li>个人开源引擎项目</li>
+    - <ul>
+    - <hr/>
+    - <lis>跨平台，支持windows/mac/ios/android，对图形底层接口，线程，io等系统进行跨平台抽象</lis>
+    - <lis>支持多线程渲染</lis>
+    - <lis>支持deferred shading/lighting多种现代图形渲染管线，支持多种现代渲染特性</lis>
+    - </ul>
     - <br>
     - Hosted on <a href="https://github.com/gameknife/gkEngine" target="_blank">https://github.com/gameknife/gkEngine</a>
 
