@@ -218,11 +218,11 @@
     company: Personal
     period: 2016.10 - Current
     description:
-    - <li>个人开源webgl着色器编辑工具</li>
-    
     - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/shadermonki.png" alt="placeholder" style="width:100%;padding:0 1em 1em;">
     - <br>
-     - <ul>
+
+    - <li>个人开源webgl着色器编辑工具</li>
+    - <ul>
     - <hr/>
     - <lis>webgl实现deferred shading图形管线</lis>
     - <lis>glsl shader的实时编译，实时预览</lis>
@@ -236,6 +236,9 @@
     company: Vistandard
     period: 2013.4 - 2015.7
     description:
+    - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/openvrp.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+
     - <li> 基础库 </li>
     - <ul>
     - <hr/>
