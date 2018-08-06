@@ -193,7 +193,7 @@
     - <lis>自行实现数学库，利用simd加速</lis>
     - <lis>自行实现线程和job抽象，利用多线程加速</lis>
     - <lis>基于可编程着色器管线逻辑，并支持多种复杂着色流程，sponza场景fps达到可交互的30+fps@i7 4core 7700K</lis>
-    - <lis>基于electron&node-gyp技术栈，使得渲染器模块更加纯粹跨平台，通过现代web技术快速构建交互界面</lis>
+    - <lis>基于electron&nodejs&node-gyp技术栈，使得渲染器模块更加纯粹跨平台，通过现代web技术以及npm上的大量package快速构建交互界面</lis>
     - </ul>
     - <br>
     - Hosted on <a href="https://github.com/gameknife/SoftRenderer" target="_blank">https://github.com/gameknife/SoftRenderer</a>
@@ -219,8 +219,16 @@
     period: 2016.10 - Current
     description:
     - <li>个人开源webgl着色器编辑工具</li>
-    - <br>
+    
     - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/shadermonki.png" alt="placeholder" style="width:100%;padding:0 1em 1em;">
+    - <br>
+     - <ul>
+    - <hr/>
+    - <lis>webgl实现deferred shading图形管线</lis>
+    - <lis>glsl shader的实时编译，实时预览</lis>
+    - <lis>实现整套webgl的封装glwrap</lis>
+    - <lis>基于electron&nodejs技术栈，通过现代web技术以及npm上的大量package快速构建交互界面</lis>
+    - </ul>
     - <br>
     - Hosted on <a href="https://github.com/gameknife/electron-shadermonki" target="_blank">https://github.com/gameknife/electron-shadermonki</a>
 
@@ -293,7 +301,8 @@
     - <li> 战斗 </li>
     - <hr/>
     - <ul>
-    - <lis>实时的帧率无关的攻击区域判定 / 大型生物的部位破坏实现</lis>
+    - <lis>实时的帧率无关的攻击区域判定</lis>
+    - <lis>大型生物的部位破坏实现</lis>
     - </ul>
     - <br>
 
