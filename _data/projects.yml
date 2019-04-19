@@ -1,6 +1,19 @@
+-   title: Confidential Project
+    company: Tencent Timi L1 Studio
+    period: 2018.12 - 2019.4
+    description:
+    - <br>
+    - <li>实时过程生成地形</li>
+    - <ul>
+    - <hr/>
+    - <lis>fractal/rigid multi/fbm等高速噪声生成器</lis>
+    - <lis>hydraul erosion/thermal erosion等地形sculpt算法</lis>
+    - </ul>
+    - <br>
+
 -   title: SSKGame（圣斗士星矢-腾讯）
     company: Tencent Timi L1 Studio
-    period: 2017.5 - Current
+    period: 2017.5 - 2018.12
     description:
     - <img src="https://raw.githubusercontent.com/gameknife/gameknife.github.io/master/images/ssk.jpg" alt="placeholder" style="width:100%;padding:0 1em 1em;">
     - <br>
