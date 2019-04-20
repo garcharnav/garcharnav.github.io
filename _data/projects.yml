@@ -1,13 +1,46 @@
--   title: Confidential Project
+-   title: A Confidential Project
     company: Tencent Timi L1 Studio
     period: 2018.12 - 2019.4
     description:
     - <br>
-    - <li>实时过程生成地形</li>
+    - <li>实时地貌过程生成/li>
     - <ul>
     - <hr/>
     - <lis>fractal/rigid multi/fbm等高速噪声生成器</lis>
     - <lis>hydraul erosion/thermal erosion等地形sculpt算法</lis>
+    - <lis>无限地形LOD策略</lis>
+    - <lis>湿度/温度/坡度/侵蚀/沉积等地质数据的生成与可视化</lis>
+    - <lis>基于地质数据的植被和装饰物分布</lis>
+    - <lis>基于Unreal Engine的无限地形多线程生成架构</lis>
+    - <lis>GPU加速优化的部分生成算法</lis>
+    - </ul>
+    - <br>
+
+    - <li>Unreal Engine研究与项目骨架构建</li>
+    - <ul>
+    - <hr/>
+    - <lis>Unreal Engine的持续集成方案研究与部署</lis>
+    - <lis>Unreal Engine的desktop forward pipeline在mac与ios上的使用</lis>
+    - <lis>Unreal Engine的版本仓库与资源管理方案建立和实施</lis>
+    - <lis>Unreal Engine的移动平台图形性能profile和优化</lis>
+    - </ul>
+    - <br>
+
+    - <li>基于Unreal Engine的部分图形效果实现</li>
+    - <ul>
+    - <hr/>
+    - <lis>昼夜变换</lis>
+    - <lis>天候变换</lis>
+    - <lis>基于Material Layer的地表渲染</lis>
+    - </ul>
+    - <br>
+
+    - <li>工具链研究</li>
+    - <ul>
+    - <hr/>
+    - <lis>Substance Designer材质包处理方案</lis>
+    - <lis>Quixel Megascans Library工具链</lis>
+    - <lis>Substance Source资源的二次处理工具链</lis>
     - </ul>
     - <br>
 
