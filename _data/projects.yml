@@ -3,12 +3,12 @@
     period: 2018.12 - 2019.4
     description:
     - <br>
-    - <li>实时地貌过程生成/li>
+    - <li>实时地貌过程生成</li>
     - <ul>
     - <hr/>
     - <lis>fractal/rigid multi/fbm等高速噪声生成器</lis>
     - <lis>hydraul erosion/thermal erosion等地形sculpt算法</lis>
-    - <lis>无限地形LOD策略</lis>
+    - <lis>无限地形生成的LOD策略</lis>
     - <lis>湿度/温度/坡度/侵蚀/沉积等地质数据的生成与可视化</lis>
     - <lis>基于地质数据的植被和装饰物分布</lis>
     - <lis>基于Unreal Engine的无限地形多线程生成架构</lis>
@@ -23,6 +23,7 @@
     - <lis>Unreal Engine的desktop forward pipeline在mac与ios上的使用</lis>
     - <lis>Unreal Engine的版本仓库与资源管理方案建立和实施</lis>
     - <lis>Unreal Engine的移动平台图形性能profile和优化</lis>
+    - <lis>Unreal Engine的编辑器模块开发与自定义数据交互</lis>
     - </ul>
     - <br>
 
