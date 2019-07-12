@@ -1,3 +1,40 @@
+-   title: PUBG-Procedural
+    company: Personal
+    period: 2019.4 - 2019.7
+    description:
+    - <br>
+    - <li>随机的海岛过程生成</li>
+    - <ul>
+    - <hr/>
+    - <lis>海岛地貌及地标的生成</lis>
+    - <lis>道路自动生成逻辑</lis>
+    - <lis>环路生成及连接逻辑</lis>
+    - <lis>宜居点分布及动态关卡加载</lis>
+    - <lis>植被的竞争生长逻辑分布</lis>
+    - </ul>
+    - <br>
+
+    - <li>类似PUBG的角色状态机开发</li>
+    - <ul>
+    - <hr/>
+    - <lis>角色Locomotion</lis>
+    - </ul>
+    - <br>
+
+    - <li>类似PUBG的枪械系统</li>
+    - <ul>
+    - <hr/>
+    - <lis>配件系统</lis>
+    - </ul>
+    - <br>
+
+    - <li>UE4网络同步研究</li>
+    - <ul>
+    - <hr/>
+    - <lis>Actor Replicate</lis>
+    - </ul>
+    - <br>
+    
 -   title: A Confidential Project
     company: Tencent Timi L1 Studio
     period: 2018.12 - 2019.4
