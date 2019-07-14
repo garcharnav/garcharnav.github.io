@@ -16,7 +16,12 @@
     - <lis>类PUBG的枪械系统</lis>
     - <lis>类PUBG的装备随机分布</lis>
     - <lis>基于UE4 DS的多人PVP网络同步</lis>
+    - <lis>基于git flow工作流，host gitlab</lis>
+    - <lis>基于Gitlab runner的完整多平台(Windows/Linux/iOS)持续集成方案</lis>
+    - <lis>基于Google Sheets API的UE4 DataTable逻辑</lis>
     - </ul>
+    - Hosted on <a href="https://gitlab.com/gameknife/think-procedural" target="_blank">https://gitlab.com/gameknife/think-procedural</a>
+    - A private repo, need credential verification.
     - <br>
     
 -   title: A Confidential Project
