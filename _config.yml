@@ -2,6 +2,8 @@
 markdown:         kramdown
 highlighter:      rouge
 
+exclude: [node_modules]
+
 # Permalinks
 permalink:        pretty
 relative_permalinks: false
