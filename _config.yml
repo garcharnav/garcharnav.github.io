@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-exclude: [node_modules]
+exclude: 		[node_modules]
 
 # Permalinks
 permalink:        pretty
@@ -19,8 +19,7 @@ baseurl:          /
 cate:
   tech:			  tech
   life:			  life
-  art:			  art
-  hidden:     hidden
+  hidden:     	  hidden
 
 author:
   name:           'Arnav Garcha'
