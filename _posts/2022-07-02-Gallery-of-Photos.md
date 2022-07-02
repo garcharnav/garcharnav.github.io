@@ -1,5 +1,7 @@
 ---
 published: false
+layout: page
+category: life
 ---
 ## A New Post
 
