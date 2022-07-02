@@ -6,6 +6,6 @@ published: true
 ---
 Hi! My name is Arnav, and I am an incoming 1<sup></sup>st year Ph.D. student at Carnegie Mellon University. My research will focus on applying computational modeling techniques to improve diagnostics of cardiovascular diseases. Through my research, I will gain expertise in numerical methods, machine learning, computational biology, and cardiovascular biology.
 
-I graduated from the University of Waterloo with a BASc in mechanical engineering. During my time at Waterloo, I partook in 6 co-ops and gained experience in manufacturing, mechanical design, CAD, and CFD.
+I graduated from the University of Waterloo with a BASc in mechanical engineering. During my time at Waterloo, I partook in 6 co-ops and gained two years of work experience in  manufacturing, mechanical design, computer aided design, CFD, and computational modeling.
 
 On this site, you can find my prior work, resume, and personal blog. _Cheers!_
