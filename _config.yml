@@ -7,10 +7,10 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            gameKnife
-tagline:          'a graphic artisan'
-description:      'A Graphic Artisan.'
-url:              http://gameknife.github.io
+title:            Arnav Garcha
+tagline:          'PhD Student at Carnegie Mellon.'
+description:      'PhD Student at Carnegie Mellon.'
+url:              http://garcharnav.github.io
 baseurl:          /
 
 #category
