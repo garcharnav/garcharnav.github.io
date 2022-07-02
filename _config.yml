@@ -21,8 +21,8 @@ cate:
   hidden:     hidden
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Arnav Garcha'
+  url:            https://garcharnav.github.io
 
 paginate:         5
 
@@ -30,7 +30,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/garcharnav
   
 # Includes an icon in the footer for each username you enter
 footer-links:
