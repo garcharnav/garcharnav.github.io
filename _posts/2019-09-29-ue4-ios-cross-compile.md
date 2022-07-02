@@ -4,6 +4,7 @@ title: Gallery
 category: life
 published: true
 ---
+coming soon
 <!--
 *Cresent Beach, BC Canada*
 <img src="https://raw.githubusercontent.com/garcharnav/garcharnav.github.io/master/images/gallery/DSC_0014.JPG" alt="coming soon">
