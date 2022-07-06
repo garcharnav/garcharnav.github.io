@@ -17,8 +17,8 @@ baseurl:          /
 
 #category
 cate:
-  tech:			  tech
-  life:			  life
+  tech:			  blog-tech
+  life:			  blog-life
   hidden:     	  hidden
 
 author:
