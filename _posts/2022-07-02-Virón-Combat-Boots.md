@@ -11,5 +11,11 @@ With all that being said, this post is about a pair of boots... albiet made by a
 
 I bought a pair of black "suede" second-hand 1992 combat boots. First impressions, they fit about a full size small (US 8 in my case). The sole is sturdy, while the upper is convincingly suede-like and creases easily. The inside lining looks quite like leather, but to the touch there is a noticable difference. 
 
+<img src="https://raw.githubusercontent.com/garcharnav/garcharnav.github.io/master/images/vside1.jpg" alt="Side">
+
+<img src="https://raw.githubusercontent.com/garcharnav/garcharnav.github.io/master/images/vbottom.jpg" alt="Bottom">
+
+<img src="https://raw.githubusercontent.com/garcharnav/garcharnav.github.io/master/images/vback.jpg" alt="Bottom">
+
 
 My aim is to document their wear over time, and my thoughts on the durability of these boots from a relatively new and unreviewed brand.
