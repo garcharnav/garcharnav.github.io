@@ -17,5 +17,4 @@ I bought a pair of black "suede" second-hand 1992 combat boots. First impression
 
 <img src="https://raw.githubusercontent.com/garcharnav/garcharnav.github.io/master/images/vback.jpg" alt="Bottom">
 
-
 My aim is to document their wear over time, and my thoughts on the durability of these boots from a relatively new and unreviewed brand.
