@@ -2,7 +2,7 @@
 layout: page
 title: About
 location: head
-published: true
+published: false
 ---
 Hi! My name is Arnav, and I am an incoming 1<sup>st</sup> year Ph.D. student at Carnegie Mellon University. My research will focus on applying computational modeling techniques to improve diagnostics of cardiovascular diseases. Through my research, I will gain expertise in numerical methods, machine learning, computational biology, and cardiovascular biology.
 
