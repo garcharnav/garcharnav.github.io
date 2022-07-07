@@ -15,9 +15,23 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    <nav class="sidebar-nav">
+    <nav class="sidebar-nav">   
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != "category" %}
+          {% if node.layout == "page" %}
+            {% if node.location == "head" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
       
-<a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}">Blog</a>
+   <!-- <a class="sidebar-nav-item" href="https://garcharnav.github.io/about/">About</a> -->
+    
+	<a class="sidebar-nav-item" href="https://garcharnav.github.io/pdfs/resume.pdf" target="_blank">Resume</a>
+      
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}">Blog</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -35,21 +49,6 @@
         {% endif %}
       {% endfor %}
       
-      
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != "category" %}
-          {% if node.layout == "page" %}
-            {% if node.location == "head" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      
-   <!-- <a class="sidebar-nav-item" href="https://garcharnav.github.io/about/">About</a> -->
-    
-	<a class="sidebar-nav-item" href="https://garcharnav.github.io/pdfs/resume.pdf" target="_blank">Resume</a>
     </nav>
     
     <div class="sharebuttons">
