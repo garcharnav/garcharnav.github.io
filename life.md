@@ -2,6 +2,7 @@
 layout: page
 title: Life
 location: cate
+published: true
 ---
 
 <div class="posts">
@@ -14,15 +15,5 @@ location: cate
     <a class="post-title" href="{{ post.url }}">
         {{ post.title }}
     </a>
-<!--
-    {{ post.content }}
-	{{ post.abstract }}
-	 <hr>
--->
-	
-
   </div>
-  {% endif %}
-  
-  {% endfor %}
 </div>
