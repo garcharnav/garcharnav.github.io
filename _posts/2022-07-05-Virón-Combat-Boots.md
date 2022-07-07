@@ -2,6 +2,7 @@
 published: true
 layout: post
 cate: life
+category: life
 ---
 *A work in progress*. 
 
