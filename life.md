@@ -14,6 +14,10 @@ published: true
 	   »   
     <a class="post-title" href="{{ post.url }}">
         {{ post.title }}
-    </a>
+    </a>	
+
   </div>
+  {% endif %}
+  
+  {% endfor %}
 </div>
