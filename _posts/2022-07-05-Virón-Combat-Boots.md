@@ -1,5 +1,7 @@
 ---
 published: true
+layout: post
+cate: life
 ---
 *A work in progress*. 
 
