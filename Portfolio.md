@@ -4,7 +4,7 @@ title: Portfolio
 location: head
 published: true
 ---
-Here's a list of projects I've worked on in the past.
+Here is a list of projects that I have worked on in the past.
 
 ### Project 1 - Heat Transfer Fin - MATLAB Finite Differences
 
