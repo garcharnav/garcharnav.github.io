@@ -1,0 +1,16 @@
+<li class="sw-card">
+  <div class="sw-head">
+    <span class="sw-name">{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}<a href="{{ s.repo }}">{{ s.name }}</a>{% endif %}</span>
+    {% if s.role %}<span class="sw-role">{{ s.role }}</span>{% endif %}
+  </div>
+  <p class="sw-desc">{{ s.description }}</p>
+  <div class="sw-meta">
+    {% for t in s.tags %}<span class="pub-tag">{{ t }}</span>{% endfor %}
+    {% if s.license %}<span class="pub-tag">{{ s.license }}</span>{% endif %}
+    <span class="sw-links">
+      {% if s.url %}<a href="{{ s.url }}">Website</a>{% endif %}
+      {% if s.url and s.repo %} &middot; {% endif %}
+      {% if s.repo %}<a href="{{ s.repo }}">Source code</a>{% endif %}
+    </span>
+  </div>
+</li>

@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      {% assign nav = "/|About,/research/|Research,/publications/|Publications,/cv/|CV,/Portfolio/|Engineering Projects" | split: "," %}
+      {% assign nav = "/|About,/research/|Research,/publications/|Publications,/open-source/|Open Source,/cv/|CV,/Portfolio/|Engineering Projects" | split: "," %}
       {% for item in nav %}
         {% assign parts = item | split: "|" %}
         <a class="sidebar-nav-item{% if page.url == parts[0] %} active{% endif %}" href="{{ parts[0] | relative_url }}">{{ parts[1] }}</a>

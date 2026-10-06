@@ -1,0 +1,26 @@
+# Open-source projects shown on /open-source/. Fields: name, role, url (project site),
+# repo (source code), description, tags, license.
+
+research:
+  - name: "CoronaryModelPipeline"
+    role: "Developer · BioSiMM Lab"
+    repo: "https://github.com/BioSiMMLab/CoronaryModelPipeline"
+    description: "A Python pipeline that automatically generates parametric left coronary artery models from a table of geometric descriptors, including branch angles and positions, vessel diameters, tortuosity, and plaque characteristics. Using the SimVascular Python interface, it constructs vessel paths and segmentations, builds the three-dimensional model and mesh, and writes the simulation input files and batch scripts needed to run each geometry on high-performance computing systems."
+    tags: [Python, SimVascular, Mesh generation, HPC]
+    license: "MIT"
+
+education:
+  - name: "Aorta Flow Lab"
+    role: "Creator"
+    url: "https://garcharnav.github.io/Aorta_Lesson_Biomech/"
+    repo: "https://github.com/garcharnav/Aorta_Lesson_Biomech"
+    description: "A browser-based lesson in which middle and high school students compare simulated blood flow in a healthy aorta and an aorta with coarctation. Students load the two simulation datasets and apply ParaView-style operations, such as coloring by pressure, clipping to inspect velocity, and tracing streamlines, without installing any software."
+    tags: [CFD visualization, VTK, Outreach]
+
+  - name: "National Biomechanics Day at CMU"
+    role: "Contributor · Outreach co-director"
+    url: "https://biomechday.github.io/main/intro.html"
+    repo: "https://github.com/biomechday/biomechday.github.io"
+    description: "Open teaching resources from Carnegie Mellon's student-led National Biomechanics Day program, covering cardiovascular biomechanics (computational fluid dynamics, fluid mechanics, medical imaging, and sensors), human locomotion, and robotics for students in grade 7 and above. The materials are built with TeachBooks and shared for classroom use."
+    tags: [TeachBooks, K-12 education, Outreach]
+    license: "CC BY 4.0"

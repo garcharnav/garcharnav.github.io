@@ -1,0 +1,17 @@
+---
+layout: page
+title: Open Source
+description: Open-source research software and educational resources developed or maintained by Arnav Garcha.
+---
+
+<p class="page-intro">Research software and open educational resources I have developed or contributed to. Source code for each project is publicly available on GitHub.</p>
+
+<h2>Research software</h2>
+<ul class="sw-list">
+  {% for s in site.data.software.research %}{% include software-card.html %}{% endfor %}
+</ul>
+
+<h2>Educational resources</h2>
+<ul class="sw-list">
+  {% for s in site.data.software.education %}{% include software-card.html %}{% endfor %}
+</ul>

@@ -148,3 +148,20 @@
 @media (prefers-reduced-motion: reduce) {
   .bg-img { transition: none; }
 }
+
+/* ---------- Open source ---------- */
+.sw-list { list-style: none; padding: 0; }
+.sw-card {
+  margin-bottom: 1.25rem;
+  padding: .9rem 1rem;
+  background: rgba(255,255,255,.72);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.sw-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .25rem 1rem; }
+.sw-name { font-weight: bold; font-size: 1rem; }
+.sw-role { font-size: .75rem; color: var(--muted); }
+.sw-desc { font-size: .85rem; line-height: 1.5; margin: .4rem 0 .5rem 0; }
+.sw-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; font-size: .8rem; }
+.sw-links { margin-left: auto; }
+@media (max-width: 30em) { .sw-links { margin-left: 0; width: 100%; } }
