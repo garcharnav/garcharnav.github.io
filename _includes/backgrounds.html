@@ -1,0 +1,51 @@
+{%- comment -%}
+  Rotating translucent background. Every image placed in /images/backgrounds/
+  is picked up automatically. A random image is shown on each page load and
+  the background cross-fades to another photo every 25 seconds.
+{%- endcomment -%}
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-img"></div>
+  <div class="bg-img"></div>
+</div>
+<script>
+(function () {
+  var images = [
+    {%- for f in site.static_files -%}
+      {%- if f.path contains '/images/backgrounds/' -%}"{{ f.path | relative_url }}",{%- endif -%}
+    {%- endfor -%}
+  ];
+  if (!images.length) return;
+
+  // Shuffle so each visit starts on a different photo and cycles in a new order.
+  for (var i = images.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = images[i]; images[i] = images[j]; images[j] = t;
+  }
+
+  var layers = document.querySelectorAll('.bg-layer .bg-img');
+  var front = 0, index = 0;
+
+  function show(url) {
+    var img = new Image();
+    img.onload = function () {
+      var next = layers[1 - front];
+      next.style.backgroundImage = 'url("' + url + '")';
+      next.classList.add('visible');
+      layers[front].classList.remove('visible');
+      front = 1 - front;
+    };
+    img.src = url;
+  }
+
+  show(images[0]);
+
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduceMotion && images.length > 1) {
+    setInterval(function () {
+      if (document.hidden) return;
+      index = (index + 1) % images.length;
+      show(images[index]);
+    }, 25000);
+  }
+})();
+</script>

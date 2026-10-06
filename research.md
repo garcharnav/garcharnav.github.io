@@ -10,7 +10,7 @@ My research combines computational fluid dynamics, discrete particle methods, an
 
 Arterial thrombosis begins with the transport of platelets to the vessel wall, followed by their adhesion, activation, and aggregation. These events occur at the scale of individual platelets, whereas the flows that govern them are set by the geometry of the artery, several orders of magnitude larger. Cell-resolved methods capture platelet behavior in detail but become computationally prohibitive at arterial length scales.
 
-My dissertation develops a hybrid continuum–discrete framework to bridge these scales. The arterial flow is resolved as a continuum, and platelets are tracked as discrete particles with models for wall adhesion, activation state, and post-activation aggregation. The framework is parallelized with MPI for high-performance computing systems, and large-scale simulations are supported by an NSF ACCESS allocation.
+My dissertation develops a hybrid continuum–discrete framework to bridge these scales. The arterial flow is resolved as a continuum, and platelets are tracked as discrete particles with models for wall adhesion, activation state, and post-activation aggregation. The framework is parallelized with MPI for high-performance computing systems.
 
 <p class="related-outputs"><strong>Related:</strong> manuscript in preparation; oral presentations at WCCM 2026, CMBE 2026, and CMBBE 2025; 1st place poster, Engineering in Cardiovascular Medicine Workshop, University of Michigan, 2026.</p>
 
