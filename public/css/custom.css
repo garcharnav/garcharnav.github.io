@@ -137,11 +137,11 @@
 }
 .bg-img {
   position: absolute;
-  top: -12px; right: -12px; bottom: -12px; left: -12px;
+  top: 0; right: 0; bottom: 0; left: 0;
   background-size: cover;
   background-position: center;
   opacity: 0;
-  filter: blur(2px);
+  image-rendering: auto;
   transition: opacity 3s ease-in-out;
 }
 .bg-img.visible { opacity: .2; }
