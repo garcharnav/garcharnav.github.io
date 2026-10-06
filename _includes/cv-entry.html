@@ -1,0 +1,8 @@
+<li class="cv-entry">
+  <div class="cv-main">
+    <span class="cv-what">{{ e.what }}</span>
+    {% if e.where %}<span class="cv-where">{% if e.url %}<a href="{{ e.url }}">{{ e.where }}</a>{% else %}{{ e.where }}{% endif %}</span>{% endif %}
+    {% if e.detail %}<span class="cv-detail">{{ e.detail }}</span>{% endif %}
+  </div>
+  <div class="cv-when">{{ e.when }}</div>
+</li>

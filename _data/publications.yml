@@ -1,0 +1,129 @@
+# Publications and presentations. Newest first within each list.
+# The site bolds "Garcha, A." automatically.
+
+journal:
+  - authors: "Jolly, T., Garcha, A., Grande Gutiérrez, N."
+    title: "Impact of microvascular resistance on coronary hemodynamic diagnostic indices: A multiscale simulation study"
+    venue: "Annals of Biomedical Engineering"
+    details: "2026"
+    doi: "10.1007/s10439-026-04378-1"
+
+  - authors: "Garcha, A., Grande Gutiérrez, N."
+    title: "Scale-dependent mechanisms of near-wall platelet enrichment in arterial flows"
+    venue: "Physics of Fluids"
+    details: "38, 041904 (2026)"
+    doi: "10.1063/5.0324694"
+    note: "Editor's Pick"
+
+  - authors: "Garcha, A., Grande Gutiérrez, N."
+    title: "Sensitivity of coronary hemodynamics to vascular structure variations in health and disease"
+    venue: "Scientific Reports"
+    details: "15, 3325 (2025)"
+    doi: "10.1038/s41598-025-85781-x"
+
+proceedings:
+  - authors: "Garcha, A.*, Cheney, N., Kumar, R., Hunte, I., Allen, A."
+    title: "Sharing our voice: The value of incorporating student leaders in institutional community engagement during shifting climates"
+    venue: "American Society for Engineering Education (ASEE) Annual Conference"
+    details: "June 2026"
+
+in_preparation:
+  - authors: "Garcha, A., Grande Gutiérrez, N."
+    title: "Arterial-scale thrombosis model of platelet adhesion, activation, and aggregation"
+
+  - authors: "Garcha, A., Abdelmohsen, L., Najmi, A., Xu, W., Grande Gutiérrez, N."
+    title: "Best practices for physiological, patient-specific boundary condition selection for vascular computational fluid dynamics simulations"
+
+  - authors: "Najmi, A., Garcha, A., Grande Gutiérrez, N."
+    title: "Transport patterns for nutrient delivery in a computational multiscale placentone model"
+
+  - authors: "Xu, W., Garcha, A., Robles, J., Karthikeyakannan, M., Jolly, T., Grande Gutiérrez, N."
+    title: "Accelerating cardiovascular CFD simulations using a GNN super-resolution framework"
+
+# * = presenter
+conference:
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Toward a clinical thrombosis model: Platelet adhesion, activation, and aggregation in arteries"
+    venue: "17th World Congress on Computational Mechanics (WCCM)"
+    details: "Munich, Germany, July 2026"
+    type: "Oral"
+
+  - authors: "Garcha, A., Grande Gutiérrez, N.*"
+    title: "Toward an arterial thrombosis model: Simulating platelet adhesion, activation, and aggregation"
+    venue: "9th International Conference on Computational and Mathematical Biomedical Engineering (CMBE)"
+    details: "Kobe, Japan, June 2026"
+    type: "Oral"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Simulating platelet transport in arterial flows"
+    venue: "Carnegie Mellon Forum on Biomedical Engineering"
+    details: "September 2025"
+    type: "Virtual poster"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Investigating platelet adhesion in arterial-scale flows using a hybrid continuum-discrete model"
+    venue: "20th International Symposium on Computer Methods in Biomechanics and Biomedical Engineering (CMBBE)"
+    details: "Barcelona, Spain, September 2025"
+    type: "Oral"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Discrete platelet wall-attraction model for arterial-scale flows"
+    venue: "ASME Summer Bioengineering Conference (SB3C)"
+    details: "Santa Ana Pueblo, NM, June 2025"
+    type: "Poster"
+
+  - authors: "Jolly, T.*, Garcha, A., Grande Gutiérrez, N."
+    title: "Microvascular resistance influence on diagnostic indices of coronary hemodynamics"
+    venue: "ASME Summer Bioengineering Conference (SB3C)"
+    details: "Santa Ana Pueblo, NM, June 2025"
+    type: "Poster"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Revisiting the relevance of platelet margination in arteries: A computational investigation"
+    venue: "APS Division of Fluid Dynamics Annual Meeting"
+    details: "Salt Lake City, UT, November 2024"
+    type: "Oral"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Plaque length and stenosis influence instantaneous wave-free ratio and wall shear stress"
+    venue: "ASME Summer Bioengineering Conference (SB3C)"
+    details: "Lake Geneva, WI, June 2024"
+    type: "Oral"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Evaluating the sensitivity of coronary artery hemodynamics to anatomical changes in angles, branch positions, and diameter ratios"
+    venue: "APS Division of Fluid Dynamics Annual Meeting"
+    details: "Washington, DC, November 2023"
+    type: "Oral"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Investigating the impact of coronary vascular structure diversity on local and global hemodynamics"
+    venue: "Biomedical Engineering Society (BMES) Annual Meeting"
+    details: "Seattle, WA, October 2023"
+    type: "Oral"
+
+other_presentations:
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "A complete framework for simulating thrombosis initiation in arterial vasculatures"
+    venue: "University of Michigan Summer BME Workshops: Engineering in Cardiovascular Medicine"
+    details: "Ann Arbor, MI, August 2026"
+    type: "Poster"
+    note: "1st Place, Computational Modeling and AI"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Arterial-scale thrombosis model"
+    venue: "CMU PhD Poster Session"
+    details: "Pittsburgh, PA, February 2026"
+    type: "Poster"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Hybrid discrete-continuum platelet adhesion model"
+    venue: "CMU PhD Poster Session"
+    details: "Pittsburgh, PA, March 2025"
+    type: "Poster"
+
+  - authors: "Garcha, A.*, Grande Gutiérrez, N."
+    title: "Considering vascular structure diversity for risk stratification of coronary artery disease"
+    venue: "CMU PhD Poster Session"
+    details: "Pittsburgh, PA, March 2024"
+    type: "Poster"

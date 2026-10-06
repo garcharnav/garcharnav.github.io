@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-exclude: 		[node_modules]
+exclude:          [node_modules, README.md, LICENSE.md]
 
 # Permalinks
 permalink:        pretty
@@ -10,20 +10,23 @@ relative_permalinks: false
 
 # Setup
 title:            Arnav Garcha
-tagline:          'PhD Candidate, Carnegie Mellon University.'
-description:      'PhD Candidate, Carnegie Mellon University.'
-url:              http://garcharnav.github.io
+tagline:          'PhD Candidate in Mechanical Engineering, Carnegie Mellon University'
+description:      'PhD Candidate in Mechanical Engineering, Carnegie Mellon University'
+url:              https://garcharnav.github.io
 baseurl:          /
 
 #category
 cate:
-  tech:			  tech
-  life:			  life
-  hidden:     	  hidden
+  tech:        tech
+  life:        life
+  hidden:         hidden
 
 author:
   name:           'Arnav Garcha'
   url:            https://garcharnav.github.io
+  email:          arnavgarcha@cmu.edu
+  linkedin:       https://www.linkedin.com/in/arnavgarcha   # check this matches your profile URL
+  scholar:                                                   # paste your Google Scholar profile URL to show the icon
 
 paginate:         5
 

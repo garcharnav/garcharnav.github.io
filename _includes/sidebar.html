@@ -1,64 +1,25 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-  
+
     <div class="sidebar-about">
-      <img src="https://raw.githubusercontent.com/garcharnav/garcharnav.github.io/master/images/headshot.PNG" width="160" height="160" alt="Arnav Garcha" style="margin: auto auto 1rem auto; border: 4px solid #fff; border-radius: 80px;">
-      
-    </div>
-    
-    <div class="sidebar-about">
+      <a href="{{ '/' | relative_url }}"><img class="headshot" src="{{ '/images/headshot.PNG' | relative_url }}" width="160" height="160" alt="Arnav Garcha"></a>
       <h1>
-        <a href="{{ "/" | relative_url }}">
-          {{ site.title }}
-        </a>
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
       </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    <nav class="sidebar-nav">  
-    <!--  THIS SECTION AUTOMATICALLY LISTS FILES IN NAV IF THEY ARE IN MAIN FOLDER
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != "category" %}
-          {% if node.layout == "page" %}
-            {% if node.location == "head" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
-          {% endif %}
-        {% endif %}
+    <nav class="sidebar-nav">
+      {% assign nav = "/|About,/research/|Research,/publications/|Publications,/cv/|CV,/Portfolio/|Engineering Projects" | split: "," %}
+      {% for item in nav %}
+        {% assign parts = item | split: "|" %}
+        <a class="sidebar-nav-item{% if page.url == parts[0] %} active{% endif %}" href="{{ parts[0] | relative_url }}">{{ parts[1] }}</a>
       {% endfor %}
-	-->
-    <a class="sidebar-nav-item" href="/Portfolio/">Portfolio</a>
-    <!-- <a class="sidebar-nav-item" href="https://garcharnav.github.io/about/">About</a> -->
-    
-	<a class="sidebar-nav-item" href="https://garcharnav.github.io/pdfs/resume.pdf" target="_blank">Resume</a>
-      
-      <a class="sidebar-nav-item" href="https://garcharnav.github.io/blog/">Blog</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != "category" %}
-          {% if node.layout == "page" %}
-            {% if node.location == "cate" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">&nbsp&nbsp&nbsp{{ node.title }}</a>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      
     </nav>
-    
-    <div class="sharebuttons">
-      	{% include share.html %}
-    </div>
-    
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-    
+
+    {% include share.html %}
+
+    <p class="sidebar-footer">&copy; {{ site.time | date: '%Y' }} Arnav Garcha</p>
+
   </div>
-  
 </div>

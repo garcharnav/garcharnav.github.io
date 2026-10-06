@@ -1,0 +1,42 @@
+---
+layout: page
+title: CV
+description: Curriculum vitae of Arnav Garcha.
+---
+
+<p class="page-intro"><a class="button" href="{{ '/pdfs/resume.pdf' | relative_url }}">Download CV (PDF)</a></p>
+
+<h2>Education</h2>
+<ul class="cv-list">{% for e in site.data.cv.education %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Fellowships &amp; scholarships</h2>
+<ul class="cv-list">{% for e in site.data.cv.fellowships %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Honors &amp; awards</h2>
+<ul class="cv-list">{% for e in site.data.cv.awards %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Grants</h2>
+<ul class="cv-list">{% for e in site.data.cv.grants %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Research experience</h2>
+<ul class="cv-list">{% for e in site.data.cv.research %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Publications</h2>
+<ol class="pub-list" reversed>
+  {% for p in site.data.publications.journal %}{% include pub.html %}{% endfor %}
+</ol>
+<p class="list-note">Proceedings, manuscripts in preparation, and conference presentations are listed on the <a href="{{ '/publications/' | relative_url }}">Publications</a> page.</p>
+
+<h2>Teaching &amp; mentoring</h2>
+<ul class="cv-list">{% for e in site.data.cv.teaching %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Service</h2>
+<ul class="cv-list">{% for e in site.data.cv.service %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Community outreach</h2>
+<ul class="cv-list">{% for e in site.data.cv.outreach %}{% include cv-entry.html %}{% endfor %}</ul>
+
+<h2>Technical skills</h2>
+<dl class="skills">
+  {% for s in site.data.cv.skills %}<dt>{{ s.label }}</dt><dd>{{ s.items }}</dd>{% endfor %}
+</dl>

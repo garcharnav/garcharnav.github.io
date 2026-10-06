@@ -1,0 +1,7 @@
+<li class="pub">
+  <span class="pub-authors">{{ p.authors | replace: "Garcha, A.", "<strong>Garcha, A.</strong>" }}</span>
+  <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}.</span>
+  {% if p.venue %}<span class="pub-venue"><em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}.</span>{% endif %}
+  {% if p.type %}<span class="pub-tag">{{ p.type }}</span>{% endif %}
+  {% if p.note %}<span class="pub-tag pub-tag-accent">{{ p.note }}</span>{% endif %}
+</li>

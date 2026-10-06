@@ -3,25 +3,32 @@ layout: default
 title: Home
 published: true
 ---
-<!-- base URL -->
 
+<div class="page home">
+  <h1 class="page-title">About</h1>
 
-<div class="page" title="about">
-  {{ content }}
-</div>
+  <p>I am a PhD candidate in Mechanical Engineering at Carnegie Mellon University, advised by Dr. Noelia Grande Gutiérrez in the <a href="https://meche.engineering.cmu.edu/faculty/gutierrez-biosimm-lab.html">Biomedical Flows Simulation and Multiscale Modeling (BioSiMM) Lab</a>. My research develops physics-based computational models of blood flow and thrombosis in arteries.</p>
 
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-  {% if post.category != "hidden" %}
-  <div class="post" style="margin: 0 0 1em 0;">
-    <span class="post-date-horizon">{{ post.date | date_to_string }}</span>
-	   »   
-    <a class="post-title" href="{{ post.url }}">
-        {{ post.title }}
-    </a>
+  <p>My dissertation focuses on particle-level modeling of arterial thrombosis initiation. I am developing a hybrid continuum–discrete framework in which individual platelets are transported through arterial-scale flows and undergo adhesion, activation, and aggregation at the vessel wall. Related work has examined the mechanisms of near-wall platelet enrichment in arterial flows and the sensitivity of coronary hemodynamics and diagnostic indices to vascular anatomy and microvascular resistance.</p>
+
+  <p>This work draws on computational fluid dynamics, particle-based and multiscale numerical methods, and parallel high-performance computing. It is supported by a scholarship from the Natural Sciences and Engineering Research Council of Canada (NSERC) and was previously supported by a Digital Health Fellowship from the CMU School of Computer Science.</p>
+
+  <p>I received an MS in Mechanical Engineering from Carnegie Mellon in 2025 and a BASc in Mechanical Engineering from the University of Waterloo in 2022. At Waterloo, I conducted undergraduate research in the Materials in Biological Systems Lab and completed co-op terms in mechanical design, manufacturing, and computational modeling.</p>
+
+  <p class="quick-links">
+    <a href="{{ '/research/' | relative_url }}">Research</a> &middot;
+    <a href="{{ '/publications/' | relative_url }}">Publications</a> &middot;
+    <a href="{{ '/pdfs/resume.pdf' | relative_url }}">CV (PDF)</a> &middot;
+    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+  </p>
+
+  <h2>Recent highlights</h2>
+  {% for group in site.data.news %}
+  <div class="news-year">
+    <h3>{{ group.year }}</h3>
+    <ul class="news">
+      {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+    </ul>
   </div>
-  {% endif %}
   {% endfor %}
 </div>
--->

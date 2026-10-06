@@ -1,25 +1,28 @@
 <div class="sharebuttons">
   <ul>
+    <li class="email">
+      <a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email">
+        {% include social/email.svg %}
+      </a>
+    </li>
+    {% if site.author.linkedin %}
     <li class="linkedin">
-      <a href="https://www.linkedin.com/arnavgarcha" target="_blank">
+      <a href="{{ site.author.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
         {% include social/linkedin.svg %}
       </a>
     </li>
+    {% endif %}
     <li class="github">
-      <a href="https://github.com/garcharnav" target="_blank">
+      <a href="https://github.com/garcharnav" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
         {% include social/github.svg %}
       </a>
-    </li>    
-   <!-- <li class="googlescholar">
-      <a href="https://scholar.google.ca/" target="_blank">
+    </li>
+    {% if site.author.scholar %}
+    <li class="googlescholar">
+      <a href="{{ site.author.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
         {% include social/googlescholar.svg %}
       </a>
-    </li> -->
-    
-    <li class="gmail">
-      <a href=mailto:garcha@gmail.com>
-        {% include social/gmail.svg %}
-      </a>
     </li>
+    {% endif %}
   </ul>
 </div>

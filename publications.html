@@ -1,0 +1,33 @@
+---
+layout: page
+title: Publications
+description: Journal articles, conference proceedings, and presentations by Arnav Garcha.
+---
+
+<p class="page-intro">Journal articles, refereed proceedings, and conference presentations. A complete list is also included in my <a href="{{ '/pdfs/resume.pdf' | relative_url }}">CV (PDF)</a>.</p>
+
+<h2>Journal articles</h2>
+<ol class="pub-list" reversed>
+  {% for p in site.data.publications.journal %}{% include pub.html %}{% endfor %}
+</ol>
+
+<h2>Refereed conference proceedings</h2>
+<ol class="pub-list" reversed>
+  {% for p in site.data.publications.proceedings %}{% include pub.html %}{% endfor %}
+</ol>
+
+<h2>In preparation</h2>
+<ul class="pub-list pub-list-plain">
+  {% for p in site.data.publications.in_preparation %}{% include pub.html %}{% endfor %}
+</ul>
+
+<h2>Conference presentations</h2>
+<p class="list-note">* denotes presenter.</p>
+<ol class="pub-list" reversed>
+  {% for p in site.data.publications.conference %}{% include pub.html %}{% endfor %}
+</ol>
+
+<h2>Other presentations</h2>
+<ol class="pub-list" reversed>
+  {% for p in site.data.publications.other_presentations %}{% include pub.html %}{% endfor %}
+</ol>
